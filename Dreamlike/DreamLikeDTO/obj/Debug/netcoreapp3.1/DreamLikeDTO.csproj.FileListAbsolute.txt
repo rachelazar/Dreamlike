@@ -1,0 +1,4 @@
+D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csprojAssemblyReference.cache
+D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfoInputs.cache
+D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfo.cs
+D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+D:\תכנות\פרויקט גמר\project\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.csprojAssemblyReference.cache
+D:\תכנות\פרויקט גמר\project\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.AssemblyInfoInputs.cache
+D:\תכנות\פרויקט גמר\project\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.AssemblyInfo.cs
+D:\תכנות\פרויקט גמר\project\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.csproj.CoreCompileInputs.cache
+D:\תכנות\פרויקט גמר\project\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.MvcApplicationPartsAssemblyInfo.cache
