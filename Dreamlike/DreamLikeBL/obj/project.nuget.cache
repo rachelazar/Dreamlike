@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PnbQnZCwz3FceKo8yN8S/sCyC/ZpbUyfEjWDyz03FvxxjIfm0PB3aq4zgJ/V1y9wUF/kHJU4v+EBPjfZAiaLYg==",
+  "dgSpecHash": "Qwwk4euWB9GcJ8quY0JkaqjRs3cZ4RWKMTsJBdByoLGN1YDXhPSJ4yqeWKKnSOXNO/wOAjLeE0gvGwG8Ekkxzg==",
   "success": true,
-  "projectFilePath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
+  "projectFilePath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\עזר\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\עזר\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

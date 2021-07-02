@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUe/3+vCwBBkEYymbswR15Ay/9tq0mkqyCfLumCCu8qja8oPz89qwwnwkT2NHVyr8pKoKwjOcgLmrSXzjfepjA==",
+  "dgSpecHash": "Qp9Ft+/rEOkFiPLOqlDlksjcKw85h/bdhAC6v1nyrzx+JCGuGiHb2tibNqtIYC6NTTyt7I+wN6nVep7AZCRgUw==",
   "success": true,
-  "projectFilePath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
+  "projectFilePath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\עזר\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\עזר\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

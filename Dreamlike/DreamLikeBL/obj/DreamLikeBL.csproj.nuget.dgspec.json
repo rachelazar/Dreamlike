@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj": {}
+    "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj": {}
   },
   "projects": {
-    "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj": {
+    "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
+        "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
         "projectName": "DreamLikeBL",
-        "projectPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
+        "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
         "packagesPath": "C:\\Users\\עזר\\.nuget\\packages\\",
-        "outputPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeBL\\obj\\",
+        "outputPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeBL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,11 +33,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
-                "projectPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
+              "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
+                "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
               },
-              "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj": {
-                "projectPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj"
+              "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj": {
+                "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
+    "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
+        "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
         "projectName": "DreamLikeDAL",
-        "projectPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
+        "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
         "packagesPath": "C:\\Users\\עזר\\.nuget\\packages\\",
-        "outputPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\obj\\",
+        "outputPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -151,14 +151,14 @@
         }
       }
     },
-    "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj": {
+    "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
+        "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
         "projectName": "DreamLikeDTO",
-        "projectPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
+        "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
         "packagesPath": "C:\\Users\\עזר\\.nuget\\packages\\",
-        "outputPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDTO\\obj\\",
+        "outputPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -180,8 +180,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
-                "projectPath": "D:\\תכנות\\פרויקט גמר\\project\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
+              "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
+                "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
               }
             }
           }
