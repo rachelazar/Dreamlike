@@ -33,7 +33,7 @@ namespace DreamLikeDAL
             try
             {
                 var SelectedProductToDelete = await _contextDB.SelectedProducts.Where(i => i.ProductId == id).FirstOrDefaultAsync();
-                _contextDB.s.Remove(SelectedProductToDelete);
+                _contextDB.Remove(SelectedProductToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)

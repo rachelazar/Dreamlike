@@ -2,3 +2,15 @@ D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDAL\obj\Debug\netco
 D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.AssemblyInfoInputs.cache
 D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.AssemblyInfo.cs
 D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.csproj.CoreCompileInputs.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.csprojAssemblyReference.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.AssemblyInfoInputs.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.AssemblyInfo.cs
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.csproj.CoreCompileInputs.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.deps.json
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.runtimeconfig.json
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.runtimeconfig.dev.json
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.dll
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.pdb
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.dll
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.pdb
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.genruntimeconfig.cache

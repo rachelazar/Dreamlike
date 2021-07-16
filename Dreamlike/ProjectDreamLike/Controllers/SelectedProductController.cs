@@ -52,7 +52,7 @@ namespace DreamLike.Controllers
         [HttpDelete("{id}")]
         public async Task DeleteSelectedProduct([FromRoute] int id)
         {
-            await _selectedProductBL.DeleteselectedProduct(id);
+            await _selectedProductBL.DeleteSelectedProduct(id);
         }
     }
 }

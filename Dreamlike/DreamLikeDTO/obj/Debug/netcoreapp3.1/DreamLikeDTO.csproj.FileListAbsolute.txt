@@ -2,3 +2,15 @@ D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netco
 D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfoInputs.cache
 D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfo.cs
 D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CoreCompileInputs.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csprojAssemblyReference.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfoInputs.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfo.cs
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CoreCompileInputs.cache
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.deps.json
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.dll
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.pdb
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.dll
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.pdb
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CopyComplete
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.dll
+D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.pdb

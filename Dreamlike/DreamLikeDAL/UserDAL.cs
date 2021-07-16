@@ -32,7 +32,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var UserToDelete = await _contextDB.Users.Where(i => i.UserId == id).FirstOrDefaultAsync();
+                var UserToDelete = await _contextDB.Users.Where(i => i.UserId.Equals(id)).FirstOrDefaultAsync();
                 _contextDB.Users.Remove(UserToDelete);
                 await _contextDB.SaveChangesAsync();
             }
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var user = await _contextDB.Users.Where(a => a.UserId == id).FirstOrDefaultAsync();
+                var user = await _contextDB.Users.Where(a => a.UserId.Equals(id)).FirstOrDefaultAsync();
                 return user;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var userToUpdate = _contextDB.Users.SingleOrDefault(a => a.UserId == id);
+                var userToUpdate = _contextDB.Users.SingleOrDefault(a => a.UserId.Equals(id));
                 userToUpdate.Username = user.Username;
                 userToUpdate.FirstName = user.FirstName;
                 userToUpdate.LastName = user.LastName;

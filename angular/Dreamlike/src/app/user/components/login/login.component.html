@@ -1,1 +1,17 @@
-<p>login works!</p>
+<div class="card-body">
+    <form [formGroup]="loginForm" >
+        <div class="form-group col-5">
+            <!-- <label for="Username">Username</label> -->
+            <input type="text" class="form-control" id="Username" name="Username" value="Username"
+                formControlName="Username" placeholder="שם משתמש">
+        </div><br>
+        <div class="form-group col-5">
+            <!-- <label for="Password">Password</label> -->
+            <input type="text" class="form-control" id="Password" name="Password" value="Password"
+                formControlName="Password" placeholder="סיסמה">
+        </div>
+        <br>
+        <button class="btn btn-primary col-5" type="submit" (click)="onSubmit()">התחבר</button>
+    </form>
+</div>  
+
