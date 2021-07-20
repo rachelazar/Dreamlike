@@ -8,7 +8,9 @@ import { AppComponent } from './app.component';
 import { LoginManagerComponent } from './manager/components/login-manager/login-manager.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { ProductsComponent } from './shared/components/products/products.component';
+import { ProductService } from './shared/services/product.service';
 import { LoginComponent } from './user/components/login/login.component';
+import { PaymentComponent } from './user/components/payment/payment.component';
 import { SelectedProductComponent } from './user/components/selected-product/selected-product.component';
 import { LoginService } from './user/services/login.service';
 import { UserModule } from './user/user.module';
@@ -22,7 +24,7 @@ import { UserModule } from './user/user.module';
     ProductsComponent,
     SelectedProductComponent,
     ProductsComponent,
-    LoginManagerComponent
+    LoginManagerComponent,
   ],
   imports: [
     CommonModule,
@@ -30,9 +32,9 @@ import { UserModule } from './user/user.module';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    UserModule
+    UserModule, 
   ],
-  providers: [LoginService],
+  providers: [LoginService, ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
