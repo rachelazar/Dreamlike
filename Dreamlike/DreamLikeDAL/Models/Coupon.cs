@@ -8,7 +8,7 @@ namespace DreamLikeDAL.Models
     public partial class Coupon
     {
         public Coupon()
-        {
+        { 
             BlockedCategories = new HashSet<BlockedCategory>();
             SelectedProducts = new HashSet<SelectedProduct>();
         }
