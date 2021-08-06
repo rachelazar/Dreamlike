@@ -8,7 +8,7 @@ namespace DreamLikeDTO
     {
         public int CouponId { get; set; }
         public string RecipientName { get; set; }
-        public string Letter { get; set; }
+        public string GreetingCard { get; set; }
         public string MusicFile { get; set; }
         public double TotalSum { get; set; }
         public string ShippingAddress { get; set; }

@@ -10,8 +10,8 @@ namespace DreamLikeDAL
 {
     public class ManagerDAL : IManagerDAL
     {
-        DreamLikeContext _contextDB;
-        public ManagerDAL(DreamLikeContext contextDB)
+        DreamlikeContext _contextDB;
+        public ManagerDAL(DreamlikeContext contextDB)
         {
             _contextDB = contextDB;
         }
@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Managers.AddAsync(manager);
+                await _contextDB.Manager.AddAsync(manager);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var managerToDelete = await _contextDB.Managers.Where(i => i.ManagerId == id).FirstOrDefaultAsync();
-                _contextDB.Managers.Remove(managerToDelete);
+                var managerToDelete = await _contextDB.Manager.Where(i => i.ManagerId == id).FirstOrDefaultAsync();
+                _contextDB.Manager.Remove(managerToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -46,7 +46,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.Managers.ToListAsync();
+                return await _contextDB.Manager.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var manager = await _contextDB.Managers.Where(a => a.ManagerId == id).FirstOrDefaultAsync();
+                var manager = await _contextDB.Manager.Where(a => a.ManagerId == id).FirstOrDefaultAsync();
                 return manager;
             }
             catch (Exception ex)
@@ -70,14 +70,14 @@ namespace DreamLikeDAL
         {
                 try
                 {
-                    var managerToUpdate = _contextDB.Managers.SingleOrDefault(a => a.ManagerId == id);
+                    var managerToUpdate = _contextDB.Manager.SingleOrDefault(a => a.ManagerId == id);
                     managerToUpdate.Username = manager.Username;
                     managerToUpdate.Password = manager.Password;
                     managerToUpdate.ManagerId = manager.ManagerId;
                     managerToUpdate.Name = manager.Name;
                     managerToUpdate.Address = manager.Address;
                     managerToUpdate.Phone = manager.Phone;
-                    managerToUpdate.MailAddress = manager.MailAddress;
+                    managerToUpdate.Mail = manager.Mail;
 
 
                     await _contextDB.SaveChangesAsync();

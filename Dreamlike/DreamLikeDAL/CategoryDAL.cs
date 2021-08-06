@@ -10,8 +10,8 @@ namespace DreamLikeDAL
 {
     public class CategoryDAL : ICategoryDAL
     {
-        DreamLikeContext _contextDB;
-        public CategoryDAL(DreamLikeContext contextDB)
+        DreamlikeContext _contextDB;
+        public CategoryDAL(DreamlikeContext contextDB)
         {
             _contextDB = contextDB;
         }
@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Categories.AddAsync(category);
+                await _contextDB.Category.AddAsync(category);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var categoryToDelete = await _contextDB.Categories.Where(i => i.CategoryId == id).FirstOrDefaultAsync();
-                _contextDB.Categories.Remove(categoryToDelete);
+                var categoryToDelete = await _contextDB.Category.Where(i => i.CategoryId == id).FirstOrDefaultAsync();
+                _contextDB.Category.Remove(categoryToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -46,7 +46,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.Categories.ToListAsync();
+                return await _contextDB.Category.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var category = await _contextDB.Categories.Where(a => a.CategoryId == id).FirstOrDefaultAsync();
+                var category = await _contextDB.Category.Where(a => a.CategoryId == id).FirstOrDefaultAsync();
                 return category;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var categoryToUpdate = _contextDB.Categories.SingleOrDefault(a => a.CategoryId == id);
+                var categoryToUpdate = _contextDB.Category.SingleOrDefault(a => a.CategoryId == id);
                 categoryToUpdate.CategoryId = category.CategoryId;
                 categoryToUpdate.Description = category.Description;
                 await _contextDB.SaveChangesAsync();

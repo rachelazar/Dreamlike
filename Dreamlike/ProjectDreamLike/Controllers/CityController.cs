@@ -22,7 +22,7 @@ namespace DreamLike.Controllers
         [HttpGet]
         public async Task<ActionResult<List<CityDTO>>> GetAllCitys()
         {
-            var cityData = await _cityBL.GetAllCitys();
+            var cityData = await _cityBL.GetAllCities();
             if (cityData == null)
             {
                 return NoContent();

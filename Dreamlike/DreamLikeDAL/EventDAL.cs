@@ -10,8 +10,8 @@ namespace DreamLikeDAL
 {
     public class EventDAL : IEventDAL
     {
-        DreamLikeContext _contextDB;
-        public EventDAL(DreamLikeContext contextDB)
+        DreamlikeContext _contextDB;
+        public EventDAL(DreamlikeContext contextDB)
         {
             _contextDB = contextDB;
         }
@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Events.AddAsync(_event);
+                await _contextDB.Event.AddAsync(_event);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var eventToDelete = await _contextDB.Events.Where(i => i.EventId == id).FirstOrDefaultAsync();
-                _contextDB.Events.Remove(eventToDelete);
+                var eventToDelete = await _contextDB.Event.Where(i => i.EventId == id).FirstOrDefaultAsync();
+                _contextDB.Event.Remove(eventToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -46,7 +46,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.Events.ToListAsync();
+                return await _contextDB.Event.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var _event = await _contextDB.Events.Where(a => a.EventId == id).FirstOrDefaultAsync();
+                var _event = await _contextDB.Event.Where(a => a.EventId == id).FirstOrDefaultAsync();
                 return _event;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var eventToUpdate = _contextDB.Events.SingleOrDefault(a => a.EventId == id);
+                var eventToUpdate = _contextDB.Event.SingleOrDefault(a => a.EventId == id);
                 eventToUpdate.EventId = _event.EventId;
                 eventToUpdate.Type = _event.Type;
                 

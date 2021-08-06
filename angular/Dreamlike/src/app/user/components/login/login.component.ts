@@ -11,7 +11,7 @@ import { LoginService } from '../../services/login.service';
 })
 export class LoginComponent implements OnInit {
 
-  loginForm!: FormGroup;
+  loginForm: FormGroup;
 
   onSubmit() {
     this._LoginService.Login(this.loginForm.value).subscribe(success => {

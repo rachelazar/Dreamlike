@@ -10,8 +10,8 @@ namespace DreamLikeDAL
 {
     public class ProductDAL : IProductDAL
     {
-        DreamLikeContext _contextDB;
-        public ProductDAL(DreamLikeContext contextDB)
+        DreamlikeContext _contextDB;
+        public ProductDAL(DreamlikeContext contextDB)
         {
             _contextDB = contextDB;
         }
@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Products.AddAsync(product);
+                await _contextDB.Product.AddAsync(product);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var productToDelete = await _contextDB.Products.Where(i => i.ProductId == id).FirstOrDefaultAsync();
-                _contextDB.Products.Remove(productToDelete);
+                var productToDelete = await _contextDB.Product.Where(i => i.ProductId == id).FirstOrDefaultAsync();
+                _contextDB.Product.Remove(productToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -46,7 +46,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.Products.ToListAsync();
+                return await _contextDB.Product.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var product = await _contextDB.Products.Where(a => a.ProductId == id).FirstOrDefaultAsync();
+                var product = await _contextDB.Product.Where(a => a.ProductId == id).FirstOrDefaultAsync();
                 return product;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var productToUpdate = _contextDB.Products.SingleOrDefault(a => a.ProductId == id);
+                var productToUpdate = _contextDB.Product.SingleOrDefault(a => a.ProductId == id);
                 productToUpdate.ProductId = product.ProductId;
                 productToUpdate.Name = product.Name;
                 productToUpdate.Price = product.Price;

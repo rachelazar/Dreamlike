@@ -1,4 +1,5 @@
-﻿using DreamLikeDAL.Models;
+﻿//using DreamLikeDAL.Models;
+using DreamLikeDAL.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,12 +11,12 @@ namespace DreamLikeDAL
 {
     public class LoginDAL : ILoginDAL
     {
-        DreamLikeContext _contextDB;
+        DreamlikeContext _contextDB;
         public async Task<User> Login(string username, string password)
         {
             try
             {
-                var userLogin = await _contextDB.Users.Where(u => u.Username == username && u.Password == password).FirstOrDefaultAsync();
+                var userLogin = await _contextDB.User.Where(u => u.Username == username && u.Password == password).FirstOrDefaultAsync();
                 return userLogin;
             }
             catch (Exception ex)

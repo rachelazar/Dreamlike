@@ -1,0 +1,24 @@
+<div class="card-body">
+    <form [formGroup]="BuyCoupon">
+        <div class="form-group col-5">
+            <input type="text" class="form-control" formControlName="Name" placeholder="שם הילד" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" formControlName="Sum" placeholder="סכום הקופון" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" formControlName="ShippingAddress" placeholder="כתובת" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" formControlName="Password" placeholder="סיסמה" required>
+        </div><br>
+        <select>
+            <option value="1">יום הולדת</option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+        </select><br><br>   
+        <!-- <button class="btn btn-primary col-5" type="submit" (click)="payment()">קנה קופון</button> -->
+        <button class="btn btn-primary col-5" type="submit" routerLink="/payment">קנה קופון</button>
+    </form>
+</div>

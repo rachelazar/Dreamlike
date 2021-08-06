@@ -10,8 +10,8 @@ namespace DreamLikeDAL
 {
     public class CityDAL : ICityDAL
     {
-        DreamLikeContext _contextDB;
-        public CityDAL(DreamLikeContext contextDB)
+        DreamlikeContext _contextDB;
+        public CityDAL(DreamlikeContext contextDB)
         {
             _contextDB = contextDB;
         }
@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Cities.AddAsync(city);
+                await _contextDB.City.AddAsync(city);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var cityToDelete = await _contextDB.Cities.Where(i => i.CityId == id).FirstOrDefaultAsync();
-                _contextDB.Cities.Remove(cityToDelete);
+                var cityToDelete = await _contextDB.City.Where(i => i.CityId == id).FirstOrDefaultAsync();
+                _contextDB.City.Remove(cityToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -42,11 +42,11 @@ namespace DreamLikeDAL
             }
         }
 
-        public async Task<List<City>> GetAllCitys()
+        public async Task<List<City>> GetAllCities()
         {
             try
             {
-                return await _contextDB.Cities.ToListAsync();
+                return await _contextDB.City.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var city = await _contextDB.Cities.Where(a => a.CityId == id).FirstOrDefaultAsync();
+                var city = await _contextDB.City.Where(a => a.CityId == id).FirstOrDefaultAsync();
                 return city;
             }
             catch (Exception ex)
@@ -71,9 +71,9 @@ namespace DreamLikeDAL
         {
             try
             {
-                var cityToUpdate = _contextDB.Cities.SingleOrDefault(a => a.CityId == id);
+                var cityToUpdate = _contextDB.City.SingleOrDefault(a => a.CityId == id);
                 cityToUpdate.CityId = city.CityId;
-                cityToUpdate.Name = city.Name;
+                cityToUpdate.CityName = city.CityName;
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)

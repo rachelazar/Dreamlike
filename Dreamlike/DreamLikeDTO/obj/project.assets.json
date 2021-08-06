@@ -5716,25 +5716,22 @@
   },
   "packageFolders": {
     "C:\\Users\\עזר\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
+      "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
       "projectName": "DreamLikeDTO",
-      "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
+      "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj",
       "packagesPath": "C:\\Users\\עזר\\.nuget\\packages\\",
-      "outputPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDTO\\obj\\",
+      "outputPath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\עזר\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5748,8 +5745,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
-              "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
+            "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
+              "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
             }
           }
         }
@@ -5784,7 +5781,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

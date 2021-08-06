@@ -1,3 +1,6 @@
+import { HttpClientModule } from '@angular/common/http';
+import { SharedRoutingModule } from './shared/shared-routing.module';
+import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -10,10 +13,11 @@ import { HomeComponent } from './shared/components/home/home.component';
 import { ProductsComponent } from './shared/components/products/products.component';
 import { ProductService } from './shared/services/product.service';
 import { LoginComponent } from './user/components/login/login.component';
-import { PaymentComponent } from './user/components/payment/payment.component';
 import { SelectedProductComponent } from './user/components/selected-product/selected-product.component';
 import { LoginService } from './user/services/login.service';
 import { UserModule } from './user/user.module';
+import { CouponComponent } from './user/components/coupon/coupon.component';
+import { ProductsDetailsComponent } from './shared/components/products-details/products-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,9 @@ import { UserModule } from './user/user.module';
     ProductsComponent,
     SelectedProductComponent,
     ProductsComponent,
+    ProductsDetailsComponent,
     LoginManagerComponent,
+    CouponComponent,
   ],
   imports: [
     CommonModule,
@@ -33,6 +39,9 @@ import { UserModule } from './user/user.module';
     FormsModule,
     ReactiveFormsModule,
     UserModule, 
+    SharedModule,
+    SharedRoutingModule,
+    HttpClientModule
   ],
   providers: [LoginService, ProductService],
   bootstrap: [AppComponent]

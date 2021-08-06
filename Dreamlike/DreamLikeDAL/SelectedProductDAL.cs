@@ -10,8 +10,8 @@ namespace DreamLikeDAL
 {
     public class SelectedProductDAL : ISelectedProductDAL
     {
-        DreamLikeContext _contextDB;
-        public SelectedProductDAL(DreamLikeContext contextDB)
+        DreamlikeContext _contextDB;
+        public SelectedProductDAL(DreamlikeContext contextDB)
         {
             _contextDB = contextDB;
         }
@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.SelectedProducts.AddAsync(selectedProduct);
+                await _contextDB.SelectedProduct.AddAsync(selectedProduct);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,7 +32,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var SelectedProductToDelete = await _contextDB.SelectedProducts.Where(i => i.ProductId == id).FirstOrDefaultAsync();
+                var SelectedProductToDelete = await _contextDB.SelectedProduct.Where(i => i.ProductId == id).FirstOrDefaultAsync();
                 _contextDB.Remove(SelectedProductToDelete);
                 await _contextDB.SaveChangesAsync();
             }
@@ -46,7 +46,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.SelectedProducts.ToListAsync();
+                return await _contextDB.SelectedProduct.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var SelectedProduct = await _contextDB.SelectedProducts.Where(a => a.ProductId == id).FirstOrDefaultAsync();
+                var SelectedProduct = await _contextDB.SelectedProduct.Where(a => a.ProductId == id).FirstOrDefaultAsync();
                 return SelectedProduct;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var SelectedProductToUpdate = _contextDB.SelectedProducts.SingleOrDefault(a => a.ProductId == id);
+                var SelectedProductToUpdate = _contextDB.SelectedProduct.SingleOrDefault(a => a.ProductId == id);
                 SelectedProductToUpdate.ProductId = selectedProduct.ProductId;
                 SelectedProductToUpdate.CouponId = selectedProduct.CouponId;
                 SelectedProductToUpdate.Date = selectedProduct.Date;

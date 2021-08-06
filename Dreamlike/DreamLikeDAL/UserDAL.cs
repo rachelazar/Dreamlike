@@ -10,8 +10,8 @@ namespace DreamLikeDAL
 {
     public class UserDAL : IUserDAL
     {
-        DreamLikeContext _contextDB;
-        public UserDAL(DreamLikeContext contextDB)
+        DreamlikeContext _contextDB;
+        public UserDAL(DreamlikeContext contextDB)
         {
             _contextDB = contextDB;
         }
@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Users.AddAsync(user);
+                await _contextDB.User.AddAsync(user);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var UserToDelete = await _contextDB.Users.Where(i => i.UserId.Equals(id)).FirstOrDefaultAsync();
-                _contextDB.Users.Remove(UserToDelete);
+                var UserToDelete = await _contextDB.User.Where(i => i.UserId.Equals(id)).FirstOrDefaultAsync();
+                _contextDB.User.Remove(UserToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -46,7 +46,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.Users.ToListAsync();
+                return await _contextDB.User.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var user = await _contextDB.Users.Where(a => a.UserId.Equals(id)).FirstOrDefaultAsync();
+                var user = await _contextDB.User.Where(a => a.UserId.Equals(id)).FirstOrDefaultAsync();
                 return user;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var userToUpdate = _contextDB.Users.SingleOrDefault(a => a.UserId.Equals(id));
+                var userToUpdate = _contextDB.User.SingleOrDefault(a => a.UserId.Equals(id));
                 userToUpdate.Username = user.Username;
                 userToUpdate.FirstName = user.FirstName;
                 userToUpdate.LastName = user.LastName;

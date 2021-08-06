@@ -20,23 +20,23 @@ export class PaymentComponent implements OnInit {
 
   ngOnInit(): void {
     // להביא את זה כאינפוט מהקומפוננטה של הסל
-    this.initConfig("sum");
+    this.initConfig("10");
   }
 
   private initConfig(price: string): void {
     this.payPalConfig = {
-      currency: 'NIS',
+      currency: 'EUR',
       clientId: 'sb',
       createOrderOnClient: (data) => <ICreateOrderRequest>{
         intent: 'CAPTURE',
         purchase_units: [
           {
             amount: {
-              currency_code: 'NIS',
+              currency_code: 'EUR',
               value: price,
               breakdown: {
                 item_total: {
-                  currency_code: 'NIS',
+                  currency_code: 'EUR',
                   value: price
                 }
               }
@@ -47,7 +47,7 @@ export class PaymentComponent implements OnInit {
                 quantity: '1',
                 category: 'DIGITAL_GOODS',
                 unit_amount: {
-                  currency_code: 'NIS',
+                  currency_code: 'EUR',
                   value: price,
                 },
               }

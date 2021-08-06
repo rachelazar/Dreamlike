@@ -26,21 +26,21 @@ namespace DreamLike.Controllers
             if (productData == null)
             {
                 return NoContent();
-
             }
             return Ok(productData);
         }
-
-        [HttpGet("/{id}")]
-        public async Task<ActionResult<List<ProductDTO>>> GetProductById(int id)
+        
+        [HttpGet("{id}")]
+        public async Task<ProductDTO> GetProductById([FromRoute] int id)
         {
             var productData = await _productBL.GetProductById(id);
-            if (productData == null)
-            {
-                return NoContent();
+            //if (productData == null)
+            //{
+            //    return NoContent();
 
-            }
-            return Ok(productData);
+            //}
+            //return Ok(productData);
+            return productData;
         }
 
         [HttpPost]

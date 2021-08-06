@@ -8,7 +8,7 @@ namespace DreamLikeDAL
 {
     public interface ICityDAL
     {
-        Task<List<City>> GetAllCitys();
+        Task<List<City>> GetAllCities();
         Task UpdateCity(int id, City city);
         Task<City> GetCityById(int id);
         Task DeleteCity(int id);

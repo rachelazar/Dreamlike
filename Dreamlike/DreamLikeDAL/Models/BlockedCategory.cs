@@ -10,6 +10,7 @@ namespace DreamLikeDAL.Models
         public int CategoryId { get; set; }
         public int CouponId { get; set; }
         public string Description { get; set; }
+
         public virtual Category Category { get; set; }
         public virtual Coupon Coupon { get; set; }
     }

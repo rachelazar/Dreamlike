@@ -8,7 +8,7 @@ namespace DreamLikeBL
 {
     public interface ICityBL
     {
-        Task<List<CityDTO>> GetAllCitys();
+        Task<List<CityDTO>> GetAllCities();
         Task<CityDTO> GetCityById(int id);
         Task AddCity(CityDTO city);
         Task DeleteCity(int id);

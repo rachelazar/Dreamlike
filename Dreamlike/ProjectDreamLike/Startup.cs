@@ -30,7 +30,7 @@ namespace DreamLike
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<DreamLikeContext>(options => options.UseSqlServer(
+            services.AddDbContext<DreamlikeContext>(options => options.UseSqlServer(
             Configuration.GetSection("ConnectionString")["DreamLikeConnection"]));
 
             services.AddScoped<IAgentBL, AgentBL>();

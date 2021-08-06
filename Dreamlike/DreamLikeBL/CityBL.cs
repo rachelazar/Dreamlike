@@ -42,9 +42,9 @@ namespace DreamLikeBL
             return convertCity;
         }
 
-        public async Task<List<CityDTO>> GetAllCitys()
+        public async Task<List<CityDTO>> GetAllCities()
         {
-            List<City> listCitys = await cityDal.GetAllCitys();
+            List<City> listCitys = await cityDal.GetAllCities();
             var _city = mapper.Map<List<City>, List<CityDTO>>(listCitys);
             return _city;
         }

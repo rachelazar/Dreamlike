@@ -1,7 +1,11 @@
 <div>
     <ul>
         <li *ngFor="let p of products">
-            {{p.name}}
+            <a routerLink="/productDetails/{{ p.productId }}">
+                {{p.name}}
+            </a>
         </li>
     </ul>
 </div>
+
+<router-outlet></router-outlet>

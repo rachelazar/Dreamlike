@@ -7,17 +7,17 @@ import { Product } from "../models/product.model";
 @Injectable()
 export class ProductService {
 
-    // getProducts(): Observable<Product[]> {
-    //     return this.http.get<Product[]>("/api/Product");
-    // }
+    getProducts(): Observable<Product[]> {
+        return this.http.get<Product[]>("/api/Product");
+    }
 
     getProductsByCategoryId(categoryId: number): Observable<Product[]> {
         return this.http.get<Product[]>("/api/Product/" + categoryId);
     }
 
-    getProductById(id: number): Observable<Product> {       
+    getProductById(id: number): Observable<Product> {
         return this.http.get<Product>("/api/Product/" + id);
     }
 
-    constructor(private http: HttpClient){}
+    constructor(private http: HttpClient) {}
 }
