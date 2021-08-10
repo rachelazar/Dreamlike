@@ -1,23 +1,41 @@
 <div class="card-body">
-    <form [formGroup]="BuyCoupon">
+    <form [formGroup]="FormCoupon">
         <div class="form-group col-5">
-            <input type="text" class="form-control" formControlName="Name" placeholder="שם הילד" required>
+            <input type="text" class="form-control" id="recipientName" formControlName="recipientName" placeholder="שם הילד" required>
         </div><br>
         <div class="form-group col-5">
-            <input type="text" class="form-control" formControlName="Sum" placeholder="סכום הקופון" required>
+            <input type="text" class="form-control" id="totalSum" formControlName="totalSum" placeholder="סכום הקופון" required>
         </div><br>
         <div class="form-group col-5">
-            <input type="text" class="form-control" formControlName="ShippingAddress" placeholder="כתובת" required>
+            <input type="text" class="form-control" id="shippingAddress" formControlName="shippingAddress" placeholder="כתובת" required>
         </div><br>
         <div class="form-group col-5">
-            <input type="text" class="form-control" formControlName="Password" placeholder="סיסמה" required>
+            <input type="text" class="form-control" id="balance" formControlName="balance" placeholder="יתרה" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="couponId" formControlName="couponId" placeholder="couponId" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="userId" formControlName="userId" placeholder="userId" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="eventId" formControlName="eventId" placeholder="eventId" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="greetingCard" formControlName="greetingCard" placeholder="greetingCard" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="musicFile" formControlName="musicFile" placeholder="musicFile" required>
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="dateOrder" formControlName="dateOrder" placeholder="dateOrder" required>
         </div><br>
         <select>
             <option value="1">יום הולדת</option>
             <option value="2"></option>
             <option value="3"></option>
             <option value="4"></option>
-        </select><br><br>   
+        </select><br><br>
         <!-- <button class="btn btn-primary col-5" type="submit" (click)="payment()">קנה קופון</button> -->
         <button class="btn btn-primary col-5" type="submit" routerLink="/payment">קנה קופון</button>
     </form>
