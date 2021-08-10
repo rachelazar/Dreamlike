@@ -1,12 +1,12 @@
 export class Coupon {
-    CouponId : number;
-    RecipientName : string;
-    GreetingCard : string;
-    MusicFile : string;
-    TotalSum : number;
-    ShippingAddress : string;
-    DateOrder : Date;
-    Balance: number;
-    UserId : number;
-    EventId : number;
+    couponId : number;
+    recipientName : string;
+    greetingCard : string;
+    musicFile : string;
+    totalSum : number = 100.5;
+    shippingAddress : string;
+    dateOrder : Date;
+    balance: number = 0.5;
+    userId : number;
+    eventId : number;
 }

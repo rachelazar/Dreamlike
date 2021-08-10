@@ -21,8 +21,16 @@ export class CouponComponent implements OnInit {
     this._coupon = value;
     if (this._coupon != undefined) {
       this.FormCoupon = new FormGroup({
-        "id": new FormControl(this.buyCoupon.UserId ),
-        "name": new FormControl(this.buyCoupon.RecipientName, [Validators.required, Validators.minLength(3)]),
+        "couponId": new FormControl(this.buyCoupon.couponId, [Validators.required]),
+        "recipientName": new FormControl(this.buyCoupon.recipientName, [Validators.required]),
+        "greetingCard": new FormControl(this.buyCoupon.greetingCard),
+        "musicFile": new FormControl(this.buyCoupon.musicFile),
+        "totalSum": new FormControl(this.buyCoupon.totalSum, [Validators.required]),
+        "shippingAddress": new FormControl(this.buyCoupon.shippingAddress, [Validators.required]),
+        "dateOrder": new FormControl(this.buyCoupon.dateOrder, [Validators.required]),
+        "balance": new FormControl(this.buyCoupon.balance, [Validators.required]),
+        "userId": new FormControl(this.buyCoupon.userId, [Validators.required]),
+        "eventId": new FormControl(this.buyCoupon.eventId, [Validators.required]),
       });
     }
   }
