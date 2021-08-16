@@ -41,6 +41,13 @@ namespace DreamLikeBL
             return convertProduct;
         }
 
+        public async Task<List<ProductDTO>> GetProductByName(string name)
+        {
+            List<Product> _products = await productDal.GetProductByName(name);
+            var products = mapper.Map<List<Product>, List<ProductDTO>>(_products);
+            return products;
+        }
+
         public async Task<List<ProductDTO>> GetAllProducts()
         {
             List<Product> listProducts = await productDal.GetAllProducts();

@@ -19,7 +19,7 @@ namespace DreamLike.Controllers
             _productBL = productBl;
         }
 
-        [HttpGet]
+        //[HttpGet]
         public async Task<ActionResult<List<ProductDTO>>> GetAllProducts()
         {
             var productData = await _productBL.GetAllProducts();
@@ -29,11 +29,26 @@ namespace DreamLike.Controllers
             }
             return Ok(productData);
         }
-        
+
+        //[Route("[action]")]
         [HttpGet("{id}")]
         public async Task<ProductDTO> GetProductById([FromRoute] int id)
         {
             var productData = await _productBL.GetProductById(id);
+            //if (productData == null)
+            //{
+            //    return NoContent();
+
+            //}
+            //return Ok(productData);
+            return productData;
+        }
+
+        //[HttpGet("{name}")]
+        [Route("[action]")]
+        public async Task<List<ProductDTO>> GetProductByName([FromRoute] string name)
+        {
+            var productData = await _productBL.GetProductByName(name);
             //if (productData == null)
             //{
             //    return NoContent();

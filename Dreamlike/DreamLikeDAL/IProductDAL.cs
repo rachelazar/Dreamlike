@@ -11,6 +11,7 @@ namespace DreamLikeDAL
         Task AddProduct(Product product);
         Task DeleteProduct(int id);
         Task<Product> GetProductById(int id);
+        Task<List<Product>> GetProductByName(string name);
         Task<List<Product>> GetAllProducts();
         Task UpdateProduct(int id, Product product);
     }

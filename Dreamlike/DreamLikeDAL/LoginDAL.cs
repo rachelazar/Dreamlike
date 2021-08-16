@@ -12,12 +12,16 @@ namespace DreamLikeDAL
     public class LoginDAL : ILoginDAL
     {
         DreamlikeContext _contextDB;
-        public async Task<User> Login(string username, string password)
+        public LoginDAL(DreamlikeContext contextDB)
+        {
+            _contextDB = contextDB;
+        }
+        public async Task<int> Login(string username, string password)
         {
             try
             {
                 var userLogin = await _contextDB.User.Where(u => u.Username == username && u.Password == password).FirstOrDefaultAsync();
-                return userLogin;
+                return userLogin.UserId;
             }
             catch (Exception ex)
             {

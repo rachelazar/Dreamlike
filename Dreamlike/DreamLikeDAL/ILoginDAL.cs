@@ -8,6 +8,6 @@ namespace DreamLikeDAL
 {
     public interface ILoginDAL
     {
-        Task<User> Login(string username, string password);
+        Task<int> Login(string username, string password);
     }
 }

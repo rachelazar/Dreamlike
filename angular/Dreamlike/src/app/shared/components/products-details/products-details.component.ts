@@ -29,6 +29,7 @@ export class ProductsDetailsComponent implements OnInit {
     this.activate.paramMap.subscribe((params) => {
       this.id = Number(params.get('id'));
       if (this.id != undefined) {
+        debugger
         this._productService.getProductById(this.id).subscribe(p => {
           this.currentProduct = p;
           console.log(this.currentProduct);
@@ -44,14 +45,14 @@ export class ProductsDetailsComponent implements OnInit {
         })
       }
 
-      this._productService.getProductById(this.id).subscribe((p) => {
-        this.currentProduct = p;
-        console.log(this.currentProduct);
-        this.name = this.currentProduct.name;
-        this.price = this.currentProduct.price;
-        this.quantity = this.currentProduct.quantity;
-        this.categoryId = this.currentProduct.categoryId;
-      });
+      // this._productService.getProductById(this.id).subscribe((p) => {
+      //   this.currentProduct = p;
+      //   console.log(this.currentProduct);
+      //   this.name = this.currentProduct.name;
+      //   this.price = this.currentProduct.price;
+      //   this.quantity = this.currentProduct.quantity;
+      //   this.categoryId = this.currentProduct.categoryId;
+      // });
     });
   }
 }

@@ -27,10 +27,10 @@ namespace DreamLike.Controllers
         //}
 
         [HttpPost]
-        public async Task<ActionResult<List<UserDTO>>> Login(LoginDTO login)
+        public async Task<ActionResult<int>> Login(LoginDTO login)
         {
             var userData = await _loginBL.Login(login);
-            if (userData == null)
+            if (userData == 0)
             {
                 return NoContent();
 

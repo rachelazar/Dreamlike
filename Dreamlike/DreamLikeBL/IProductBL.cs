@@ -10,6 +10,7 @@ namespace DreamLikeBL
     {
         Task<List<ProductDTO>> GetAllProducts();
         Task<ProductDTO> GetProductById(int id);
+        Task<List<ProductDTO>> GetProductByName(string name);
         Task AddProduct(ProductDTO product);
         Task DeleteProduct(int id);
         Task UpdateProduct(int id, ProductDTO product);

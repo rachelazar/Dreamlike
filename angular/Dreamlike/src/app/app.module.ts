@@ -18,6 +18,8 @@ import { LoginService } from './user/services/login.service';
 import { UserModule } from './user/user.module';
 import { CouponComponent } from './user/components/coupon/coupon.component';
 import { ProductsDetailsComponent } from './shared/components/products-details/products-details.component';
+import { SearchComponent } from './shared/components/search/search.component';
+import { FilterPipe } from './shared/pipes/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -31,8 +33,10 @@ import { ProductsDetailsComponent } from './shared/components/products-details/p
     ProductsDetailsComponent,
     LoginManagerComponent,
     CouponComponent,
-  ],
-  imports: [
+    SearchComponent,
+    FilterPipe
+
+  ],  imports: [
     CommonModule,
     BrowserModule,
     AppRoutingModule,

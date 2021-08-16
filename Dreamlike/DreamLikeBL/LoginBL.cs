@@ -12,12 +12,14 @@ namespace DreamLikeBL
     public class LoginBL : ILoginBL
     {
         ILoginDAL loginDal;
-        IMapper mapper;
-        public async Task<UserDTO> Login(LoginDTO login)
+       
+
+
+        public async Task<int> Login(LoginDTO login)
         {
-            User _user = await loginDal.Login(login.Username, login.Password);
-            var convertUser = mapper.Map<User, UserDTO>(_user);
-            return convertUser;
+            int id = await loginDal.Login(login.Username, login.Password);
+            
+            return id;
         }
     }
 }

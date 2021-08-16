@@ -67,6 +67,19 @@ namespace DreamLikeDAL
             }
         }
 
+        public async Task<List<Product>> GetProductByName(string name)
+        {
+            try
+            {
+                var products = await _contextDB.Product.Where(a => a.Name.Contains(name.Trim())).ToListAsync();
+                return products;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public async Task UpdateProduct(int id, Product product)
         {
             try

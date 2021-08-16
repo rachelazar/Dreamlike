@@ -15,10 +15,8 @@ namespace DreamLikeDAL.Models
         public int UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string CellPhone { get; set; }
-        public string Landline { get; set; }
         public string Mail { get; set; }
-        public string Sms { get; set; }
+        public string Phone { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
 

@@ -75,10 +75,8 @@ namespace DreamLikeDAL
                 userToUpdate.Username = user.Username;
                 userToUpdate.FirstName = user.FirstName;
                 userToUpdate.LastName = user.LastName;
-                userToUpdate.CellPhone = user.CellPhone;
-                userToUpdate.Landline = user.Landline;
                 userToUpdate.Mail = user.Mail;
-                userToUpdate.Sms = user.Sms;
+                userToUpdate.Phone = user.Phone;
                 userToUpdate.Username = user.Username;
                 userToUpdate.Password = user.Password;
                 await _contextDB.SaveChangesAsync();

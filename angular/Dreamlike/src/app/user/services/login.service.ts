@@ -9,9 +9,8 @@ import { Login } from '../models/login.model';
 @Injectable()
 export class LoginService {
 
-
-  Login(login:Login): Observable<boolean>{
-    return this._http.post<boolean>("/api/Login",login);
+  Login(login: Login): Observable<number>{
+    return this._http.post<number>("/api/Login", login);
   }
   
   constructor(private _http: HttpClient) { }

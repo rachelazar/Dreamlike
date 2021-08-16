@@ -20,7 +20,7 @@ namespace DreamLikeDAL.Models
         public virtual DbSet<Agent> Agent { get; set; }
         public virtual DbSet<BlockedCategory> BlockedCategory { get; set; }
         public virtual DbSet<Category> Category { get; set; }
-        public virtual DbSet<City> City { get; set; }
+        public virtual DbSet<City> City { get; set; }        
         public virtual DbSet<Coupon> Coupon { get; set; }
         public virtual DbSet<Event> Event { get; set; }
         public virtual DbSet<Manager> Manager { get; set; }
@@ -218,15 +218,9 @@ namespace DreamLikeDAL.Models
             {
                 entity.ToTable("user");
 
-                entity.Property(e => e.CellPhone)
-                    .IsRequired()
-                    .HasMaxLength(10);
-
                 entity.Property(e => e.FirstName)
                     .IsRequired()
                     .HasMaxLength(10);
-
-                entity.Property(e => e.Landline).HasMaxLength(9);
 
                 entity.Property(e => e.LastName)
                     .IsRequired()
@@ -240,9 +234,9 @@ namespace DreamLikeDAL.Models
                     .IsRequired()
                     .HasMaxLength(10);
 
-                entity.Property(e => e.Sms)
-                    .HasMaxLength(10)
-                    .HasColumnName("SMS");
+                entity.Property(e => e.Phone)
+                    .IsRequired()
+                    .HasMaxLength(10);
 
                 entity.Property(e => e.Username)
                     .IsRequired()
