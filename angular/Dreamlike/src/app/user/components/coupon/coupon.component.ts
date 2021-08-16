@@ -26,8 +26,7 @@ export class CouponComponent implements OnInit {
   }
   
   buyCoupon() {
-    
- console.log(this.FormCoupon.value)
+    console.log(this.FormCoupon.value)
   }
 
   constructor() {}
