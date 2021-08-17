@@ -1,36 +1,36 @@
 <div class="card-body">
     <form [formGroup]="FormCoupon"  (submit)="buyCoupon()">
         <div class="form-group col-5">
-            <input type="text" class="form-control" id="recipientName" formControlName="recipientName" placeholder="שם הילד" hidden>
+            <input type="text" class="form-control" id="recipientName" formControlName="recipientName" placeholder="שם הילד">
         </div><br>
         <div class="form-group col-5">
-            <input type="text" class="form-control" id="totalSum" formControlName="totalSum" placeholder="סכום הקופון" required>
+            <input type="number" class="form-control" id="totalSum" formControlName="totalSum" placeholder="סכום הקופון" required>
         </div><br>
         <div class="form-group col-5">
-            <input type="text" class="form-control" id="shippingAddress" formControlName="shippingAddress" placeholder="כתובת" required>
+            <input type="text" class="form-control" id="shippingAddress" formControlName="shippingAddress" placeholder="כתובת למשלוח" required>
         </div><br>
         <div class="form-group col-5">
             <input type="text" class="form-control" id="balance" formControlName="balance" placeholder="יתרה" required>
         </div><br>
         <div class="form-group col-5">
-            <input type="text" class="form-control" id="userId" formControlName="userId" placeholder="userId" required>
+            <input type="text" class="form-control" id="userId" formControlName="userId" placeholder="קוד משתמש" required>
         </div><br>
-        <div class="form-group col-5">
-            <select class="form-control" id="eventId" formControlName="eventId"  required>
-                <!-- <option *ngFor=""></option> -->
+        <div class="col-5">
+            <select class="form-select" id="eventId" formControlName="eventId" required>
+                <option selected> מטרת קניית המתנה </option>
+                <option *ngFor="let e of eventTypes">{{e.type}}</option>
             </select>
         </div><br>
+        <!-- <div class="form-group col-5">
+            <input type="text" class="form-control" id="greetingCard" formControlName="greetingCard" placeholder="ברכה" required>
+        </div><br>  
         <div class="form-group col-5">
-            <input type="text" class="form-control" id="greetingCard" formControlName="greetingCard" placeholder="greetingCard" required>
+            <input type="text" class="form-control" id="musicFile" formControlName="musicFile" placeholder="בחר קובץ מוזיקה" required>
         </div><br>
         <div class="form-group col-5">
-            <input type="text" class="form-control" id="musicFile" formControlName="musicFile" placeholder="musicFile" required>
-        </div><br>
-        <div class="form-group col-5">
-            <input type="text" class="form-control" id="dateOrder" formControlName="dateOrder" placeholder="dateOrder" required>
-        </div><br>
+            <input type="text" class="form-control" id="dateOrder" formControlName="dateOrder" placeholder="תאריך" required>
+        </div><br> -->
       
         <button class="btn btn-primary col-5" type="submit">קנה קופון</button>
-        <!-- <button class="btn btn-primary col-5" type="submit" routerLink="/payment">קנה קופון</button> -->
     </form>
 </div>

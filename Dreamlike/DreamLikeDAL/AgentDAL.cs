@@ -20,7 +20,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Agent.AddAsync(agent);
+                await _contextDB.Agents.AddAsync(agent);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -33,8 +33,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var agentToDelete = await _contextDB.Agent.Where(i => i.AgentId == id).FirstOrDefaultAsync();
-                _contextDB.Agent.Remove(agentToDelete);
+                var agentToDelete = await _contextDB.Agents.Where(i => i.AgentId == id).FirstOrDefaultAsync();
+                _contextDB.Agents.Remove(agentToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -47,7 +47,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.Agent.ToListAsync();
+                return await _contextDB.Agents.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -59,7 +59,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var agent = await _contextDB.Agent.Where(a => a.AgentId == id).FirstOrDefaultAsync();
+                var agent = await _contextDB.Agents.Where(a => a.AgentId == id).FirstOrDefaultAsync();
                 return agent;
             }
             catch (Exception ex)
@@ -72,7 +72,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var agentToUpdate = _contextDB.Agent.SingleOrDefault(a => a.AgentId == id);
+                var agentToUpdate = _contextDB.Agents.SingleOrDefault(a => a.AgentId == id);
                 agentToUpdate.Name = agent.Name;
                 agentToUpdate.Phone = agent.Phone;
                 agentToUpdate.Address = agent.Address;

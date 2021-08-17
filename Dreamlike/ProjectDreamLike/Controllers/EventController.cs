@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(eventData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<EventDTO>>> GetEventById(int id)
         {
             var eventData = await _eventBL.GetEventById(id);

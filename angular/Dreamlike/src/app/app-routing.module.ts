@@ -6,6 +6,7 @@ import { ProductsDetailsComponent } from './shared/components/products-details/p
 import { ProductsComponent } from './shared/components/products/products.component';
 import { LoginComponent } from './user/components/login/login.component';
 import { PaymentComponent } from './user/components/payment/payment.component';
+import { LoginUserComponent } from './shared/components/login-user/login-user.component';
 
 const routes: Route[] = [
   { path: "", redirectTo: "home", pathMatch: "full" },
@@ -13,6 +14,7 @@ const routes: Route[] = [
   { path: "products", component: ProductsComponent },
   { path: "productDetails/:id", component: ProductsDetailsComponent },
   { path: "login", component: LoginComponent },
+  { path: "loginUser", component: LoginUserComponent },
   { path: "home", component: HomeComponent },
   { path: "coupon", component: CouponComponent },
   { path: "payment", component: PaymentComponent }

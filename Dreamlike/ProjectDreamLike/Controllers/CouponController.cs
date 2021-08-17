@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(couponData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<CouponDTO>>> GetCouponById(int id)
         {
             var couponData = await _couponBL.GetCouponById(id);

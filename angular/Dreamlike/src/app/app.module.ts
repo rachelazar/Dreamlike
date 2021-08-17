@@ -1,3 +1,4 @@
+import { EventService } from 'src/app/shared/services/event.service';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedRoutingModule } from './shared/shared-routing.module';
 import { SharedModule } from './shared/shared.module';
@@ -5,7 +6,6 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginManagerComponent } from './manager/components/login-manager/login-manager.component';
@@ -20,6 +20,8 @@ import { CouponComponent } from './user/components/coupon/coupon.component';
 import { ProductsDetailsComponent } from './shared/components/products-details/products-details.component';
 import { SearchComponent } from './shared/components/search/search.component';
 import { FilterPipe } from './shared/pipes/filter.pipe';
+import { LoginUserComponent } from './shared/components/login-user/login-user.component';
+import { LoginUserService } from './shared/services/login-user.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { FilterPipe } from './shared/pipes/filter.pipe';
     LoginManagerComponent,
     CouponComponent,
     SearchComponent,
-    FilterPipe
+    FilterPipe,
+    LoginUserComponent
 
   ],  imports: [
     CommonModule,
@@ -47,7 +50,7 @@ import { FilterPipe } from './shared/pipes/filter.pipe';
     SharedRoutingModule,
     HttpClientModule
   ],
-  providers: [LoginService, ProductService],
+  providers: [LoginService, ProductService, EventService, LoginUserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(userData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<UserDTO>>> GetUserById(int id)
         {
             var userData = await _userBL.GetUserById(id);
@@ -44,6 +44,7 @@ namespace DreamLike.Controllers
         }
 
         [HttpPost]
+        [Route("[action]")]
         public async Task AddUser([FromBody] UserDTO user)
         {
             await _userBL.AddUser(user);

@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(selectedProductData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<SelectedProductDTO>>> GetSelectedProductById(int id)
         {
             var selectedProductData = await _selectedProductBL.GetSelectedProductById(id);

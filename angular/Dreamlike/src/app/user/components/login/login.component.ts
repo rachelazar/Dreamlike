@@ -9,13 +9,13 @@ import { LoginService } from '../../services/login.service';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
 })
+
 export class LoginComponent implements OnInit {
   loginForm: FormGroup;
 
   onSubmit() {
     this._LoginService.Login(this.loginForm.value).subscribe((success) => {
-      sessionStorage.setItem('userId',success.toString());
-
+      sessionStorage.setItem('userId', success.toString());
     });
   }
 

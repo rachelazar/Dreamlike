@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(agentData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<AgentDTO>>> GetAgentById(int id)
         {
             var agentData = await _agentBL.GetAgentById(id);

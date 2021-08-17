@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(categoryData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<CategoryDTO>>> GetCategoryById(int id)
         {
             var categoryData = await _categoryBL.GetCategoryById(id);

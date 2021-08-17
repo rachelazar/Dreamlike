@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(blockedCategoryData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<BlockedCategoryDTO>>> GetBlockedCategoryById(int id)
         {
             var blockedCategoryData = await _blockedCategoryBL.GetBlockedCategoryById(id);

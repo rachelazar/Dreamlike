@@ -29,7 +29,6 @@ export class ProductsDetailsComponent implements OnInit {
     this.activate.paramMap.subscribe((params) => {
       this.id = Number(params.get('id'));
       if (this.id != undefined) {
-        debugger
         this._productService.getProductById(this.id).subscribe(p => {
           this.currentProduct = p;
           console.log(this.currentProduct);

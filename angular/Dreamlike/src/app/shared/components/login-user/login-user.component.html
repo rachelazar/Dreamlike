@@ -1,0 +1,29 @@
+<div class="card-body">
+    <form [formGroup]="loginUserForm" (submit)="onSubmit()">
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="FirstName"
+                formControlName="firstName" placeholder="שם פרטי">
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="LastName"
+                formControlName="lastName" placeholder="שם משפחה">
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="Phone"
+                formControlName="phone" placeholder="מספר טלפון">
+        </div><br>
+        <div class="form-group col-5">
+            <input type="text" class="form-control" id="Mail"
+                formControlName="mail" placeholder="כתובת דוא”ל:">
+        </div><br>
+        <div class="form-group col-5">
+            <input type="password" class="form-control" id="Password"
+                formControlName="password" placeholder="סיסמה">
+        </div><br>
+        <div class="form-group col-5">
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z]).{7,}" class="form-control" 
+            id="confirmPassword" onpaste="return false;" placeholder="אשר סיסמה" required>
+        </div><br>
+        <button class="btn btn-primary col-5" type="submit">התחבר</button>
+    </form>
+</div>

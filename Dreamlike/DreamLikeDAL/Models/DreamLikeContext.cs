@@ -17,16 +17,16 @@ namespace DreamLikeDAL.Models
         {
         }
 
-        public virtual DbSet<Agent> Agent { get; set; }
-        public virtual DbSet<BlockedCategory> BlockedCategory { get; set; }
-        public virtual DbSet<Category> Category { get; set; }
-        public virtual DbSet<City> City { get; set; }        
-        public virtual DbSet<Coupon> Coupon { get; set; }
-        public virtual DbSet<Event> Event { get; set; }
-        public virtual DbSet<Manager> Manager { get; set; }
-        public virtual DbSet<Product> Product { get; set; }
-        public virtual DbSet<SelectedProduct> SelectedProduct { get; set; }
-        public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<Agent> Agents { get; set; }
+        public virtual DbSet<BlockedCategory> BlockedCategories { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<City> Cities { get; set; }
+        public virtual DbSet<Coupon> Coupons { get; set; }
+        public virtual DbSet<Event> Events { get; set; }
+        public virtual DbSet<Manager> Managers { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<SelectedProduct> SelectedProducts { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

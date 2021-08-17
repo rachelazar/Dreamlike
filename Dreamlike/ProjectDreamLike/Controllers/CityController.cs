@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(cityData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<CityDTO>>> GetCityById(int id)
         {
             var cityData = await _cityBL.GetCityById(id);

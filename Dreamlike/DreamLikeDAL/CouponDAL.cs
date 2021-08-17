@@ -19,7 +19,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.Coupon.AddAsync(coupon);
+                await _contextDB.Coupons.AddAsync(coupon);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var couponToDelete = await _contextDB.Coupon.Where(i => i.CouponId == id).FirstOrDefaultAsync();
-                _contextDB.Coupon.Remove(couponToDelete);
+                var couponToDelete = await _contextDB.Coupons.Where(i => i.CouponId == id).FirstOrDefaultAsync();
+                _contextDB.Coupons.Remove(couponToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -46,7 +46,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.Coupon.ToListAsync();
+                return await _contextDB.Coupons.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var coupon = await _contextDB.Coupon.Where(a => a.CouponId == id).FirstOrDefaultAsync();
+                var coupon = await _contextDB.Coupons.Where(a => a.CouponId == id).FirstOrDefaultAsync();
                 return coupon;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var couponToUpdate = _contextDB.Coupon.SingleOrDefault(a => a.CouponId == id);
+                var couponToUpdate = _contextDB.Coupons.SingleOrDefault(a => a.CouponId == id);
                 couponToUpdate.CouponId = coupon.CouponId;
                 couponToUpdate.RecipientName = coupon.RecipientName;
                 couponToUpdate.GreetingCard = coupon.GreetingCard;

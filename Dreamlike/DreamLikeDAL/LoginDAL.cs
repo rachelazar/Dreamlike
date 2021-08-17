@@ -20,7 +20,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var userLogin = await _contextDB.User.Where(u => u.Username == username && u.Password == password).FirstOrDefaultAsync();
+                var userLogin = await _contextDB.Users.Where(u => u.Username == username && u.Password == password).FirstOrDefaultAsync();
                 return userLogin.UserId;
             }
             catch (Exception ex)

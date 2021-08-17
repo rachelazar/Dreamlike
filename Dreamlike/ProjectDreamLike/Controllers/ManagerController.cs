@@ -31,7 +31,7 @@ namespace DreamLike.Controllers
             return Ok(managerData);
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<List<ManagerDTO>>> GetManagerById(int id)
         {
             var managerData = await _managerBL.GetManagerById(id);

@@ -20,7 +20,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                await _contextDB.BlockedCategory.AddAsync(blockedCategory);
+                await _contextDB.BlockedCategories.AddAsync(blockedCategory);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -33,8 +33,8 @@ namespace DreamLikeDAL
         {
             try
             {
-                var blockedCategoryToDelete = await _contextDB.BlockedCategory.Where(i => i.CategoryId== id).FirstOrDefaultAsync();
-                _contextDB.BlockedCategory.Remove(blockedCategoryToDelete);
+                var blockedCategoryToDelete = await _contextDB.BlockedCategories.Where(i => i.CategoryId== id).FirstOrDefaultAsync();
+                _contextDB.BlockedCategories.Remove(blockedCategoryToDelete);
                 await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -49,7 +49,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                return await _contextDB.BlockedCategory.ToListAsync();
+                return await _contextDB.BlockedCategories.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -61,7 +61,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var blockedCategory = await _contextDB.BlockedCategory.Where(a => a.CategoryId == id).FirstOrDefaultAsync();
+                var blockedCategory = await _contextDB.BlockedCategories.Where(a => a.CategoryId == id).FirstOrDefaultAsync();
                 return blockedCategory;
             }
             catch (Exception ex)
@@ -74,7 +74,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var blockedCategoryToUpdate = _contextDB.BlockedCategory.SingleOrDefault(a => a.CategoryId == id);
+                var blockedCategoryToUpdate = _contextDB.BlockedCategories.SingleOrDefault(a => a.CategoryId == id);
                 blockedCategoryToUpdate.CategoryId = blockedCategory.CategoryId;
                 blockedCategoryToUpdate.CouponId = blockedCategory.CouponId;
                 blockedCategoryToUpdate.Description = blockedCategory.Description;
