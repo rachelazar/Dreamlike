@@ -43,8 +43,8 @@ namespace DreamLike.Controllers
             return Ok(userData);
         }
 
-        [HttpPost]
-        [Route("[action]")]
+        //[Route("[action]")]
+        [HttpPost("[action]")]
         public async Task AddUser([FromBody] UserDTO user)
         {
             await _userBL.AddUser(user);

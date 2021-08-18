@@ -20,7 +20,7 @@ namespace DreamLikeDAL
             try
             {
                 await _contextDB.Users.AddAsync(user);
-                await _contextDB.SaveChangesAsync();
+                //await _contextDB.SaveChangesAsync();
             }
             catch (Exception ex)
             {
