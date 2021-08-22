@@ -30,3 +30,17 @@ D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeBL\obj\Debug\ne
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.dll
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.pdb
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.csproj.AssemblyReference.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\bin\Debug\netcoreapp3.1\DreamLikeBL.deps.json
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\bin\Debug\netcoreapp3.1\DreamLikeBL.dll
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\bin\Debug\netcoreapp3.1\DreamLikeBL.pdb
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\bin\Debug\netcoreapp3.1\DreamLikeDAL.dll
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\bin\Debug\netcoreapp3.1\DreamLikeDTO.dll
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\bin\Debug\netcoreapp3.1\DreamLikeDAL.pdb
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\bin\Debug\netcoreapp3.1\DreamLikeDTO.pdb
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.csprojAssemblyReference.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.AssemblyInfoInputs.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.AssemblyInfo.cs
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.csproj.CoreCompileInputs.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.csproj.CopyComplete
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.dll
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeBL\obj\Debug\netcoreapp3.1\DreamLikeBL.pdb

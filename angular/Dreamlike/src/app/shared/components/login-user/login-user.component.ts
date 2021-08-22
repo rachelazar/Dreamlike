@@ -13,9 +13,11 @@ export class LoginUserComponent implements OnInit {
 
   onSubmit() {
     debugger
-    this._LoginUserService.LoginUser(this.loginUserForm.value).subscribe((success) => {
+ let user=this.loginUserForm.value;
+ user.username = user.mail;
+    this._LoginUserService.LoginUser(user).subscribe((success) => {
       // sessionStorage.setItem('userId', success.toString());
-      console.log(success);
+      console.log(user);
     });
   }
 

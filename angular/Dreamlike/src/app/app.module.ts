@@ -22,6 +22,8 @@ import { SearchComponent } from './shared/components/search/search.component';
 import { FilterPipe } from './shared/pipes/filter.pipe';
 import { LoginUserComponent } from './shared/components/login-user/login-user.component';
 import { LoginUserService } from './shared/services/login-user.service';
+import { MailComponent } from './shared/components/mail/mail.component';
+import { MailService } from './shared/services/mail.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,8 @@ import { LoginUserService } from './shared/services/login-user.service';
     CouponComponent,
     SearchComponent,
     FilterPipe,
-    LoginUserComponent
+    LoginUserComponent,
+    MailComponent
 
   ],  imports: [
     CommonModule,
@@ -50,7 +53,7 @@ import { LoginUserService } from './shared/services/login-user.service';
     SharedRoutingModule,
     HttpClientModule
   ],
-  providers: [LoginService, ProductService, EventService, LoginUserService],
+  providers: [LoginService, ProductService, EventService, LoginUserService, MailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
