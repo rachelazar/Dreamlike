@@ -10,16 +10,22 @@ import { LoginUserComponent } from './shared/components/login-user/login-user.co
 import { MailComponent } from './shared/components/mail/mail.component';
 
 const routes: Route[] = [
-  { path: "", redirectTo: "home", pathMatch: "full" },
-  // { path: "", component: HomeComponent, pathMatch: "full" },
-  { path: "products", component: ProductsComponent },
-  { path: "productDetails/:id", component: ProductsDetailsComponent },
-  { path: "login", component: LoginComponent },
-  { path: "loginUser", component: LoginUserComponent },
-  { path: "home", component: HomeComponent },
-  { path: "coupon", component: CouponComponent },
+  // { path: "", redirectTo: "home", pathMatch: "full" },
+  // { path: "products", component: ProductsComponent },
+  // { path: "productDetails/:id", component: ProductsDetailsComponent },
+  // { path: "login", component: LoginComponent },
+  // { path: "loginUser", component: LoginUserComponent },
+  // { path: "home", component: HomeComponent },
+  // { path: "coupon", component: CouponComponent },
   { path: "mail", component: MailComponent },
-  { path: "payment", component: PaymentComponent }
+  // { path: "payment", component: PaymentComponent }
+
+  { path: "products", loadChildren: () => import("./shared/shared.module").then(m => m.SharedModule), canLoad: [] },
+  { path: "loginUser", loadChildren: () => import("./shared/shared.module").then(m => m.SharedModule), canLoad: [] },
+  { path: "coupon",loadChildren:()=>import("./user/user.module").then(m => m.UserModule), canLoad: [] },
+  { path: "login", loadChildren: () => import("./user/user.module").then(m => m.UserModule), canLoad: [] },
+  { path: "payment", loadChildren: () => import("./user/user.module").then(m => m.UserModule), canLoad: [] },
+
 ]
 
 @NgModule({

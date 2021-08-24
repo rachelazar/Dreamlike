@@ -12,7 +12,7 @@ namespace DreamLikeDTO
         public AutoMapperProfile()
         {
             // continue
-            // תמיר מאובייקט אחד לשני וכן להפך 
+            // ממיר מאובייקט אחד לשני וכן להפך 
             CreateMap<AgentDTO, Agent>();
             CreateMap<Agent, AgentDTO>();
             CreateMap<BlockedCategoryDTO, BlockedCategory>();
