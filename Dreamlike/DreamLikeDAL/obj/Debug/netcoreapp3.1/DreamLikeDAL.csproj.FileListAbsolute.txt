@@ -26,3 +26,15 @@ D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDAL\obj\Debug\n
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.pdb
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.genruntimeconfig.cache
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.csproj.AssemblyReference.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.deps.json
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.runtimeconfig.json
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.runtimeconfig.dev.json
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.dll
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\bin\Debug\netcoreapp3.1\DreamLikeDAL.pdb
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.csprojAssemblyReference.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.AssemblyInfoInputs.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.AssemblyInfo.cs
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.csproj.CoreCompileInputs.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.dll
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.pdb
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDAL\obj\Debug\netcoreapp3.1\DreamLikeDAL.genruntimeconfig.cache
