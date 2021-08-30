@@ -11,9 +11,9 @@ export class ProductService {
         return this.http.get<Product[]>("/api/Product");
     }
 
-    getProductsByCategoryId(categoryId: number): Observable<Product[]> {
-        return this.http.get<Product[]>("/api/Product/" + categoryId);
-    }
+    // getProductsByCategoryId(categoryId: number): Observable<Product[]> {
+    //     return this.http.get<Product[]>("/api/Product/" + categoryId);
+    // }
 
     getProductById(id: number): Observable<Product> {
         return this.http.get<Product>("/api/Product/" + id);

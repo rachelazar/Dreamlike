@@ -13,7 +13,7 @@ export class MailComponent implements OnInit {
   email: string = "r0556782231@gmail.com";
 
   send() {
-    this._mailService.sendEmail(this.subject, this.message, this.email).subscribe(data => {
+    this._mailService.sendEmailAsync(this.subject, this.message, this.email).subscribe(data => {
       console.log(data)
     })
   }
