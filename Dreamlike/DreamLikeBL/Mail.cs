@@ -9,7 +9,7 @@ namespace DreamLikeBL
 {
     public class Mail
     {
-        public bool SendEmail(string subject, string message, string address)
+        public bool SendMailAsync(string subject, string message, string address)
         {
             string email = "t0548561711@gmail.com";
             string password = "tr171111";

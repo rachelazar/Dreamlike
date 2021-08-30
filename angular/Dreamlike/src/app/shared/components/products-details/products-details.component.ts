@@ -16,11 +16,10 @@ export class ProductsDetailsComponent implements OnInit {
 
   @Input()
   id: number;
-
-  name: string;
-  price: number;
-  quantity: number;
-  categoryId: number;
+  // name: string;
+  // price: number;
+  // quantity: number;
+  // categoryId: number;
 
   constructor(private _productService: ProductService, _router: Router, private activate: ActivatedRoute) {}
 

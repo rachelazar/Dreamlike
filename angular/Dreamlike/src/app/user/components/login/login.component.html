@@ -12,7 +12,9 @@
         <button class="btn btn-primary col-5" type="submit" (click)="onSubmit()">התחבר</button>
         <div style="font-size:smaller"> 
             אין לך חשבון?  
-            <a routerLink="/loginUser">צור חשבון</a> 
+            <a routerLink="/loginUser/loginUser">צור חשבון</a> 
         </div>
+
+        <router-outlet></router-outlet>
     </form>
 </div>

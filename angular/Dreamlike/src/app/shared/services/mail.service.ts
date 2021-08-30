@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable()
 export class MailService {
 
-  sendEmail(subject: string, message: string, email: string): Observable<ArrayBuffer> {
+  sendEmailAsync(subject: string, message: string, email: string): Observable<ArrayBuffer> {
     return this.http.post<ArrayBuffer>("/api/Mail", {subject, message, email});
   }
 

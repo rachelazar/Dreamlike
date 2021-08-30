@@ -5,16 +5,15 @@ import { LoginUserService } from '../../services/login-user.service';
 @Component({
   selector: 'app-login-user',
   templateUrl: './login-user.component.html',
-  styleUrls: ['./login-user.component.scss']
+  styleUrls: ['./login-user.component.scss'],
 })
-
 export class LoginUserComponent implements OnInit {
   loginUserForm: FormGroup;
 
   onSubmit() {
-    debugger
- let user=this.loginUserForm.value;
- user.username = user.mail;
+    debugger;
+    let user = this.loginUserForm.value;
+    user.username = user.mail;
     this._LoginUserService.LoginUser(user).subscribe((success) => {
       // sessionStorage.setItem('userId', success.toString());
       console.log(user);
@@ -31,7 +30,7 @@ export class LoginUserComponent implements OnInit {
       phone: new FormControl(),
       mail: new FormControl(),
       username: new FormControl(),
-      password: new FormControl()
+      password: new FormControl(),
     });
   }
 }

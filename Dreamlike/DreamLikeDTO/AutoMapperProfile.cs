@@ -7,12 +7,10 @@ using System.Text;
 
 namespace DreamLikeDTO
 {
-   public  class AutoMapperProfile : AutoMapper.Profile
+    public class AutoMapperProfile : AutoMapper.Profile
     {
         public AutoMapperProfile()
         {
-            // continue
-            // ממיר מאובייקט אחד לשני וכן להפך 
             CreateMap<AgentDTO, Agent>();
             CreateMap<Agent, AgentDTO>();
             CreateMap<BlockedCategoryDTO, BlockedCategory>();
