@@ -7,7 +7,7 @@ import { Login } from '../models/login.model';
 export class LoginService {
 
   Login(login: Login): Observable<number>{
-    return this.http.post<number>("/api/Login", login);
+    return this.http.post<number>("/api/Login/Login", login);
   }
 
   constructor(private http: HttpClient) { }

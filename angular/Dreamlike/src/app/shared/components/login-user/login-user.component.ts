@@ -17,6 +17,7 @@ export class LoginUserComponent implements OnInit {
     this._LoginUserService.LoginUser(user).subscribe((success) => {
       // sessionStorage.setItem('userId', success.toString());
       console.log(user);
+      console.log(user.userId);
     });
   }
 
