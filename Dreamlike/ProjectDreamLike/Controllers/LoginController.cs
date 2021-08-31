@@ -26,7 +26,7 @@ namespace DreamLike.Controllers
         //    return await _loginBL.Login(login);
         //}
 
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<ActionResult<int>> Login(LoginDTO login)
         {
             var userData = await _loginBL.Login(login);
