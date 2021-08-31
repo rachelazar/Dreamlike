@@ -1,29 +1,29 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { LoginUserService } from '../../services/login-user.service';
+import { AddUserService } from '../../services/add-user.service';
 
 @Component({
-  selector: 'app-login-user',
-  templateUrl: './login-user.component.html',
-  styleUrls: ['./login-user.component.scss'],
+  selector: 'app-add-user',
+  templateUrl: './add-user.component.html',
+  styleUrls: ['./add-user.component.scss'],
 })
-export class LoginUserComponent implements OnInit {
-  loginUserForm: FormGroup;
+export class AddUserComponent implements OnInit {
+  AddUserForm: FormGroup;
 
   onSubmit() {
     debugger;
-    let user = this.loginUserForm.value;
+    let user = this.AddUserForm.value;
     user.username = user.mail;
-    this._LoginUserService.LoginUser(user).subscribe((success) => {
+    this._AddUserService.AddUser(user).subscribe((success) => {
       // sessionStorage.setItem('userId', success.toString());
       console.log(user);
     });
   }
 
-  constructor(private _LoginUserService: LoginUserService) {}
+  constructor(private _AddUserService: AddUserService) {}
 
   ngOnInit(): void {
-    this.loginUserForm = new FormGroup({
+    this.AddUserForm = new FormGroup({
       userId: new FormControl(),
       firstName: new FormControl(),
       lastName: new FormControl(),

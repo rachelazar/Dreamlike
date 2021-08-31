@@ -7,7 +7,7 @@ import { PaymentComponent } from './components/payment/payment.component';
 const routes: Route[] = [
   // { path: "", component: HomeComponent, pathMatch: "full" },
   { path: "login", component: LoginComponent },
-  { path: "loginUser", loadChildren: () => import("../shared/shared.module").then(m => m.SharedModule), canLoad: [] },
+  { path: "addUser", loadChildren: () => import("../shared/shared.module").then(m => m.SharedModule), canLoad: [] },
   { path: "coupon", component: CouponComponent },
   { path: "payment", component: PaymentComponent },
 ]

@@ -4,9 +4,9 @@ import { Observable } from 'rxjs';
 import { User } from '../models/user.model';
 
 @Injectable()
-export class LoginUserService {
+export class AddUserService {
 
-  LoginUser(user: User): Observable<boolean> {
+  AddUser(user: User): Observable<boolean> {
     return this.http.post<boolean>("/api/User/AddUser", user);
   }
 

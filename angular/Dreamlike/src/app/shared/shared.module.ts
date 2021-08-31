@@ -6,18 +6,18 @@ import { ProductsDetailsComponent } from './components/products-details/products
 import { SharedRoutingModule } from './shared-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductService } from './services/product.service';
-import { LoginUserService } from './services/login-user.service';
 import { MailService } from './services/mail.service';
 import { EventService } from './services/event.service';
 import { FilterPipe } from './pipes/filter.pipe';
-import { LoginUserComponent } from './components/login-user/login-user.component';
 import { MailComponent } from './components/mail/mail.component';
+import { AddUserComponent } from './components/add-user/add-user.component';
+import { AddUserService } from './services/add-user.service';
 
 @NgModule({
   declarations: [
     ProductsComponent,
     ProductsDetailsComponent,
-    LoginUserComponent,
+    AddUserComponent,
     MailComponent,
     // SearchComponent,
     FilterPipe
@@ -28,7 +28,7 @@ import { MailComponent } from './components/mail/mail.component';
     SharedRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [ProductService, LoginUserService, MailService, EventService],
+  providers: [ProductService, AddUserService, MailService, EventService],
   // exports: [ProductsComponent, ProductsDetailsComponent, LoginUserComponent, MailComponent]
 })
 export class SharedModule { }

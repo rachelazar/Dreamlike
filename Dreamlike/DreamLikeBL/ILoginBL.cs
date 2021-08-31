@@ -8,6 +8,6 @@ namespace DreamLikeBL
 {
     public interface ILoginBL
     {
-        Task<int> Login(LoginDTO login);
+        Task<int?> Login(LoginDTO login);
     }
 }

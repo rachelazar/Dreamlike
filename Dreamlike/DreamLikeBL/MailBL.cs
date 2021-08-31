@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DreamLikeBL
 {
-    public class Mail
+    public class MailBL: IMailBL
     {
         public bool SendMailAsync(string subject, string message, string address)
         {
