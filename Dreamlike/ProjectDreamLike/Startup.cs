@@ -43,6 +43,8 @@ namespace DreamLike
             services.AddScoped<IProductBL, ProductBL>();
             services.AddScoped<ISelectedProductBL, SelectedProductBL>();
             services.AddScoped<IUserBL, UserBL>();
+            services.AddScoped<ILoginBL, LoginBL>();
+            services.AddScoped<IMailBL, MailBL>();
 
             services.AddScoped<IAgentDAL, AgentDAL>();
             services.AddScoped<IBlockedCategoryDAL, BlockedCategoryDAL>();
@@ -54,6 +56,7 @@ namespace DreamLike
             services.AddScoped<IProductDAL, ProductDAL>();
             services.AddScoped<ISelectedProductDAL, SelectedProductDAL>();
             services.AddScoped<IUserDAL, UserDAL>();
+            services.AddScoped<ILoginDAL, LoginDAL>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

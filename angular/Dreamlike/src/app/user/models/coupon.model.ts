@@ -3,10 +3,10 @@ export class Coupon {
     recipientName : string;
     greetingCard : string;
     musicFile : string;
-    totalSum : number = 100.5;
+    totalSum : number;
     shippingAddress : string;
     dateOrder : Date;
-    balance: number = 0.5;
+    balance: number;
     userId : number;
     eventId : number;
 }

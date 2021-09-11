@@ -12,14 +12,17 @@ namespace DreamLikeBL
     public class LoginBL : ILoginBL
     {
         ILoginDAL loginDal;
-       
-
-
-        public async Task<int> Login(LoginDTO login)
+        IMailBL mailBL;
+        public LoginBL(ILoginDAL loginDal, IMailBL mailBL)
         {
-            int id = await loginDal.Login(login.Username, login.Password);
-            
-            return id;
+            this.loginDal = loginDal;
+            this.mailBL = mailBL;
+        }
+
+        public async Task<int?> Login(LoginDTO login)
+        {
+            //mailBL.SendMailAsync("hey", "bye", "r0556782231@gmail.com");
+            return await loginDal.Login(login.Username, login.Password);
         }
     }
 }

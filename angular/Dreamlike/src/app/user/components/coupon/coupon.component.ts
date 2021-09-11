@@ -3,6 +3,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Event } from 'src/app/shared/models/event.model';
 import { EventService } from 'src/app/shared/services/event.service';
 import { Coupon } from '../../models/coupon.model';
+import { CouponService } from '../../services/coupon.service';
 
 @Component({
   selector: 'app-coupon',
@@ -29,11 +30,13 @@ export class CouponComponent implements OnInit {
   }
   
   buyCoupon() {
-    //save data
     console.log(this.FormCoupon.value)
+    this._couponService.AddCoupon(this.FormCoupon.value).subscribe(data => {
+      console.log(data);
+    })
   }
 
-  constructor(private _eventService: EventService) {}
+  constructor(private _couponService: CouponService, private _eventService: EventService) {}
 
   ngOnInit(): void {
     this.initCouponForm();
@@ -53,7 +56,7 @@ export class CouponComponent implements OnInit {
       userId: new FormControl(+sessionStorage.getItem('userId')!, [Validators.required]),
       eventId: new FormControl(this.coupon.eventId, [Validators.required]),
     });
-  }
+  } 
 
   initEvents(): void {
     this._eventService.getEvents().subscribe(data => {
