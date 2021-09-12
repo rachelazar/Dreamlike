@@ -15,6 +15,7 @@ namespace DreamLikeDAL
         {
             _contextDB = contextDB;
         }
+
         public async Task AddCoupon(Coupon coupon)
         {
             try

@@ -9,5 +9,11 @@ export class MailService {
     return this.http.post<ArrayBuffer>("/api/Mail", {subject, message, email});
   }
 
+  //TODO:
+  // sendM(subject: string,  message: string,  address: string): Observable<boolean> {
+  //     return this.http.post<boolean>("/api/")
+  // }
+
+
   constructor(private http: HttpClient) { }
 }

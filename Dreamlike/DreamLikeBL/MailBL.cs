@@ -11,8 +11,8 @@ namespace DreamLikeBL
     {
         public bool SendMailAsync(string subject, string message, string address)
         {
-            string email = "t0548561711@gmail.com";
-            string password = "tr171111";
+            string email = "dreamlike.ltd@gmail.com";
+            string password = "dreamlike123";
 
             var loginInfo = new NetworkCredential(email, password);
             var msg = new MailMessage();
