@@ -13,6 +13,7 @@ namespace DreamLikeBL
     {
         ICouponDAL couponDal;
         IMapper mapper;
+        IMailBL mailBL;
         public CouponBL(ICouponDAL _couponDal)
         {
             couponDal = _couponDal;
@@ -26,6 +27,7 @@ namespace DreamLikeBL
         public async Task AddCoupon(CouponDTO coupon)
         {
             var _coupon = mapper.Map<CouponDTO, Coupon>(coupon);
+            mailBL.SendMailAsync(""+_coupon.CouponId, "dreamlike wish you happy holiday", "t0548561711@gmail.com");
             await couponDal.AddCoupon(_coupon);
         }
 
