@@ -17,6 +17,7 @@ export class LoginComponent implements OnInit {
   onSubmit() {
     this._LoginService.Login(this.loginForm.value).subscribe((success) => {
       if (success != null) {
+        debugger
         sessionStorage.setItem('userId', success.toString());
         this.router.navigate(['../shared/home']);
       }

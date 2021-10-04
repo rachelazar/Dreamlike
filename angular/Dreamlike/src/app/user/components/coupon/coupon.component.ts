@@ -22,7 +22,6 @@ export class CouponComponent implements OnInit {
     return this._coupon;
   }
 
-  // @Input()
   public set coupon(value: Coupon) {
     this._coupon = value;
     if (this._coupon != undefined) {
@@ -36,7 +35,7 @@ export class CouponComponent implements OnInit {
     this.initParams(coupon);
 
     console.log(coupon)
-    this._couponService.AddCoupon(coupon).subscribe((success) => {
+    this._couponService.addCoupon(coupon).subscribe((success) => {
           this._router.navigate(['/payment']);
 
     })

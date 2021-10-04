@@ -11,11 +11,11 @@ export class AddUserComponent implements OnInit {
   AddUserForm: FormGroup;
 
   onSubmit() {
-    debugger;
+    // debugger;
     let user = this.AddUserForm.value;
     user.username = user.mail;
     this._AddUserService.AddUser(user).subscribe((success) => {
-      // sessionStorage.setItem('userId', success.toString());
+      //sessionStorage.setItem('userId', success.toString());
       console.log(user);
       console.log(user.userId);
     });

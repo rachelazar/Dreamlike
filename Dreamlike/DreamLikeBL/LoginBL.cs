@@ -21,8 +21,8 @@ namespace DreamLikeBL
 
         public async Task<int?> Login(LoginDTO login)
         {
-            //mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", "t0548561711@gmail.com");
             mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", "t0548561711@gmail.com");
+            //mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", login.Username);
             return await loginDal.Login(login.Username, login.Password);
         }
     }

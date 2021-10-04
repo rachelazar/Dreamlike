@@ -14,7 +14,7 @@ namespace DreamLikeBL
         ICouponDAL couponDal;
         IMapper mapper;
         IMailBL mailBL;
-        public CouponBL(ICouponDAL _couponDal)
+        public CouponBL(ICouponDAL _couponDal, IMailBL mailBL, IUserBL userBL)
         {
             couponDal = _couponDal;
             var config = new MapperConfiguration(cfg =>
@@ -22,12 +22,15 @@ namespace DreamLikeBL
                 cfg.AddProfile<AutoMapperProfile>();
             });
             mapper = config.CreateMapper();
+            this.mailBL = mailBL;
         }
 
         public async Task AddCoupon(CouponDTO coupon)
         {
             var _coupon = mapper.Map<CouponDTO, Coupon>(coupon);
-            mailBL.SendMailAsync(""+_coupon.CouponId, "dreamlike wish you happy holiday", "t0548561711@gmail.com");
+
+            //mailBL.SendMailAsync("hi we sent you code coupon", "" + coupon.CouponId, "t0548561711@gmail.com");
+            //mailBL.SendMailAsync("hi we sent you code coupon", "" + coupon.CouponId, "" + coupon.Mail);
             await couponDal.AddCoupon(_coupon);
         }
 
