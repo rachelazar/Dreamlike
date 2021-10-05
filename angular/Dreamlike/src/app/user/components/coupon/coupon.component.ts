@@ -46,15 +46,15 @@ export class CouponComponent implements OnInit {
   initCouponForm(): void {
     this.FormCoupon = new FormGroup({
       couponId: new FormControl(),
-      recipientName: new FormControl(this.coupon.recipientName, [Validators.required]),
-      greetingCard: new FormControl(this.coupon.greetingCard),
-      musicFile: new FormControl(this.coupon.musicFile),
-      totalSum: new FormControl(this.coupon.totalSum, [Validators.required]),
-      shippingAddress: new FormControl(this.coupon.shippingAddress, [Validators.required]),
-      dateOrder: new FormControl(this.coupon.dateOrder, [Validators.required]),
-      balance: new FormControl(this.coupon.balance, [Validators.required]),
-      userId: new FormControl(+sessionStorage.getItem('userId')!, [Validators.required]),
-      eventId: new FormControl(this.coupon.eventId, [Validators.required]),
+      recipientName: new FormControl(),//(this.coupon.recipientName, [Validators.required]),
+      greetingCard: new FormControl(),//(this.coupon.greetingCard),
+      musicFile: new FormControl(),//(this.coupon.musicFile),
+      totalSum: new FormControl(),//(this.coupon.totalSum, [Validators.required]),
+      shippingAddress: new FormControl(),//(this.coupon.shippingAddress, [Validators.required]),
+      dateOrder: new FormControl(),//(this.coupon.dateOrder, [Validators.required]),
+      balance: new FormControl(),//(this.coupon.balance, [Validators.required]),
+      userId: new FormControl(),//(+sessionStorage.getItem('userId')!, [Validators.required]),
+      eventId: new FormControl(),//(this.coupon.eventId, [Validators.required]),
     });
   } 
 
