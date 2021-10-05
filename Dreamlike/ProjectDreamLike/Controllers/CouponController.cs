@@ -43,7 +43,8 @@ namespace DreamLike.Controllers
             return Ok(couponData);
         }
 
-        [HttpPost]
+        //[HttpPost]
+        [HttpPost("[action]")]
         public async Task AddCoupon([FromBody] CouponDTO coupon)
         {
             await _couponBL.AddCoupon(coupon);
