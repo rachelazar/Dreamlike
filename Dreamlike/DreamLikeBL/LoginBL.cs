@@ -4,6 +4,7 @@ using DreamLikeDAL.Models;
 using DreamLikeDTO;
 using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,8 +22,8 @@ namespace DreamLikeBL
 
         public async Task<int?> Login(LoginDTO login)
         {
-            mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", "t0548561711@gmail.com");
-            //mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", login.Username);
+            //if (login.Username == )
+            mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", login.Username);
             return await loginDal.Login(login.Username, login.Password);
         }
     }

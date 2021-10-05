@@ -36,10 +36,8 @@ export class CouponComponent implements OnInit {
 
     console.log(coupon)
     this._couponService.addCoupon(coupon).subscribe((success) => {
-          this._router.navigate(['/payment']);
-
+      this._router.navigate(['/payment']);
     })
-    
   }
 
   constructor(private _couponService: CouponService, private _eventService: EventService, private _router: Router) {}
@@ -61,7 +59,7 @@ export class CouponComponent implements OnInit {
       // dateOrder: new FormControl(this.coupon.dateOrder, [Validators.required]),
       // balance: new FormControl(this.coupon.totalSum, [Validators.required]),
       // userId: new FormControl("5", [Validators.required]),
-      userId: new FormControl((+sessionStorage.getItem('userId')!).toString(), [Validators.required]),
+      userId: new FormControl((+sessionStorage.getItem('userId')!), [Validators.required]),
       eventId: new FormControl(this.coupon.eventId, [Validators.required]),
     });
     

@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   onSubmit() {
     this._LoginService.Login(this.loginForm.value).subscribe((success) => {
       if (success != null) {
-        debugger
+        //TODO: success.toString()) why toString?
         sessionStorage.setItem('userId', success.toString());
         this.router.navigate(['../shared/home']);
       }
@@ -26,7 +26,6 @@ export class LoginComponent implements OnInit {
   }
 
   constructor(private _LoginService: LoginService, private router: Router) { }
-  // constructor(private _LoginService: LoginService, private activate: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     this.loginForm = new FormGroup({

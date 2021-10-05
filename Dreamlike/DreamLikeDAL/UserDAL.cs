@@ -58,7 +58,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var user = await _contextDB.Users.Where(a => a.UserId.Equals(id)).FirstOrDefaultAsync();
+                var user = await _contextDB.Users.Where(u => u.UserId == id).FirstOrDefaultAsync();
                 return user;
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var userToUpdate = _contextDB.Users.SingleOrDefault(a => a.UserId.Equals(id));
+                var userToUpdate = _contextDB.Users.SingleOrDefault(u => u.UserId == id);
                 userToUpdate.Username = user.Username;
                 userToUpdate.FirstName = user.FirstName;
                 userToUpdate.LastName = user.LastName;

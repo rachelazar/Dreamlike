@@ -11,9 +11,9 @@ export class CouponService {
     return this.http.post<boolean>("/api/Coupon/AddCoupon", coupon);
   }
 
-  getUserById (id: number): Observable<User> {
-    return this.http.get<User>("/api/User/" + id);
-  }
+  // getUserById (id: number): Observable<User> {
+  //   return this.http.get<User>("/api/User/" + id);
+  // }
   
   constructor(private http: HttpClient) { }
 }
