@@ -32,7 +32,7 @@ namespace DreamLikeDAL
         {
             try
             {
-                var UserToDelete = await _contextDB.Users.Where(i => i.UserId.Equals(id)).FirstOrDefaultAsync();
+                var UserToDelete = await _contextDB.Users.Where(u => u.UserId == id).FirstOrDefaultAsync();
                 _contextDB.Users.Remove(UserToDelete);
                 await _contextDB.SaveChangesAsync();
             }
