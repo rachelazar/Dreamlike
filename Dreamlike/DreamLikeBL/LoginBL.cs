@@ -26,23 +26,14 @@ namespace DreamLikeBL
 
         public async Task<int?> Login(LoginDTO login)
         {
-            ////******
-            ////if()
-            ////if (login.Username == )
-            //try
-            //{
-            //    mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", login.Username);
-            //    return await loginDal.Login(login.Username, login.Password);
-            //}
-            //catch (Exception e)
-            //{
-            //    throw e;
-            //    return 0;
-            //}
             if (IsValidEmail(login.Username))
             {
-                mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", login.Username);
-                return await loginDal.Login(login.Username, login.Password);
+                var userId = await loginDal.Login(login.Username, login.Password);
+                if(userId != null)
+                {
+                    mailBL.SendMailAsync("hey", "dreamlike wish you happy holiday", login.Username);
+                }
+                return userId;
             }
             return 0;
         }

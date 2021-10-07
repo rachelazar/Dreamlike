@@ -30,8 +30,10 @@ namespace DreamLike
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<DreamlikeContext>(options => options.UseSqlServer(
-            Configuration.GetSection("ConnectionString")["DreamLikeConnection"]));
+            services.AddDbContext<DreamlikeContext>(options => { options.UseSqlServer(
+            Configuration.GetSection("ConnectionString")["DreamLikeConnection"]);
+                options.UseLazyLoadingProxies();
+            });
 
             services.AddScoped<IAgentBL, AgentBL>();
             services.AddScoped<IBlockedCategoryBL, BlockedCategoryBL>();
