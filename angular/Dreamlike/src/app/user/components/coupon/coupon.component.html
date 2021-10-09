@@ -18,19 +18,19 @@
         <!-- <div class="form-group col-5">
             <input type="text" class="form-control" id="dateOrder" formControlName="dateOrder" placeholder="תאריך" required>
         </div><br> -->
-        <div class="form-group col-5">
+        <!-- <div class="form-group col-5">
             <input type="number" class="form-control" id="eventId" formControlName="eventId" placeholder="ארוע" required>
-        </div><br>
+        </div><br> -->
         <!-- <div class="form-group col-5">
             <input type="text" class="form-control" id="userId" formControlName="userId" placeholder="קוד משתמש" required>
         </div><br> -->
-        <!-- <div class="col-5">
+        <div class="col-5">
             <select class="form-select" id="eventId" formControlName="eventId" required>
                 <option value=""  selected> מטרת קניית המתנה </option>
                 TODO: change it to int
-                <option *ngFor="let e of eventTypes" value={{e.eventId}}>{{e.type}}</option>
+                <option *ngFor="let e of eventTypes" [value]="e.eventId">{{e.type}}</option>
             </select>
-        </div><br> -->
+        </div><br>
         <!-- <div class="form-group col-5">
             <input type="text" class="form-control" id="greetingCard" formControlName="greetingCard" placeholder="ברכה" required>
         </div><br>  

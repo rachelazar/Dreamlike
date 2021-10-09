@@ -217,3 +217,5 @@ C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike
 C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.dll
 C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.pdb
 C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.genruntimeconfig.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll

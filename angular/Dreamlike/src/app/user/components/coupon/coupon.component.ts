@@ -31,11 +31,12 @@ export class CouponComponent implements OnInit {
 
   buyCoupon() {
     // debugger;
-    let coupon = this.FormCoupon.value;
-    this.initParams(coupon);
+    this.coupon = this.FormCoupon.value;
+    this.coupon.eventId=+this.coupon.eventId;
+    this.initParams(this.coupon);
 
-    console.log(coupon)
-    this._couponService.addCoupon(coupon).subscribe((success) => {
+    console.log(this.coupon)
+    this._couponService.addCoupon(this.coupon).subscribe((success) => {
       this._router.navigate(['/payment']);
     })
   }
@@ -78,6 +79,6 @@ export class CouponComponent implements OnInit {
 
   createCoupon(userId: number, totalSum: number): any{
     //TODO:let count: number;
-    return (userId + totalSum) * 100;
+    return (userId + totalSum) * 10000;
   }
 }

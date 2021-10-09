@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { AddUserService } from '../../services/add-user.service';
 
 @Component({
@@ -14,14 +15,17 @@ export class AddUserComponent implements OnInit {
     // debugger;
     let user = this.AddUserForm.value;
     user.username = user.mail;
-    this._AddUserService.AddUser(user).subscribe((success) => {
-      //sessionStorage.setItem('userId', success.toString());
+    this._AddUserService.AddUser(user).subscribe(() => {
+      sessionStorage.setItem('username', user.username);
+      // sessionStorage.setItem('password', user.password); - correct
+
+      // sessionStorage.setItem(`${user.username}`, user.password); - error
+      this.router.navigate(['/login']);
       console.log(user);
-      console.log(user.userId);
     });
   }
 
-  constructor(private _AddUserService: AddUserService) {}
+  constructor(private _AddUserService: AddUserService, private router: Router) {}
 
   ngOnInit(): void {
     this.AddUserForm = new FormGroup({
