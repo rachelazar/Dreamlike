@@ -12,12 +12,13 @@ import { AddUserService } from '../shared/services/add-user.service';
 import { CouponService } from './services/coupon.service';
 
 
+
 @NgModule({
   declarations: [
     LoginComponent,
     // NgxPaypalComponent,
     PaymentComponent,
-    CouponComponent
+    CouponComponent, 
   ],
   imports: [
     CommonModule,

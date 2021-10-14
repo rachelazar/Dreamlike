@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bSbAUsXBFgXotD+kqEeUgR/kZ5itr0PP2v8ErjoMuNifsvq7CwhYsDRG98Pp62NJlzUR6FBCAHzBbGOT6hKqxg==",
+  "dgSpecHash": "2AqYXmqIxsZ9fowWdQdGAC4DHxI16in++ftRwlZM9Igijv9vJmIHycFBfBfn1DGc7E0eI5Mdmq190nTkC1hAuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\ProjectDreamLike\\DreamLike.csproj",
   "expectedPackageFiles": [
@@ -137,8 +137,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\ציפי רבינוביץ\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

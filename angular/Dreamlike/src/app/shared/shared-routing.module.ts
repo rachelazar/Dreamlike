@@ -7,6 +7,7 @@ import { MailComponent } from './components/mail/mail.component';
 // import { HomeComponent } from '../home/home.component';
 import { AddUserComponent } from './components/add-user/add-user.component';
 
+
 const routes: Route[] = [
   { path: "products", component: ProductsComponent },
   { path: "productsDetails/:id", component: ProductsDetailsComponent },
