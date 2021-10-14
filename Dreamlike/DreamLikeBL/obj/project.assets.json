@@ -5734,23 +5734,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ציפי רבינוביץ\\.nuget\\packages\\": {},
+    "C:\\Users\\עזר\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
+      "projectUniqueName": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
       "projectName": "DreamLikeBL",
-      "projectPath": "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
-      "packagesPath": "C:\\Users\\ציפי רבינוביץ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\DreamLikeBL\\obj\\",
+      "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeBL\\DreamLikeBL.csproj",
+      "packagesPath": "C:\\Users\\עזר\\.nuget\\packages\\",
+      "outputPath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeBL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ציפי רבינוביץ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\עזר\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5764,11 +5764,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
-              "projectPath": "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
+            "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj": {
+              "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj"
             },
-            "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj": {
-              "projectPath": "C:\\Users\\ציפי רבינוביץ\\Videos\\פרויקט גמר\\22.08.21\\Dreamlike\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj"
+            "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj": {
+              "projectPath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDTO\\DreamLikeDTO.csproj"
             }
           }
         }
@@ -5797,7 +5797,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+>>>>>>> 6a142de9a60e8c76d9798fbc8ebce7d4737b1de3
       }
     }
   }

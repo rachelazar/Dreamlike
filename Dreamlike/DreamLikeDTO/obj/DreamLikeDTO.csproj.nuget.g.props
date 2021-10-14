@@ -5,12 +5,19 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ציפי רבינוביץ\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\עזר\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+<<<<<<< HEAD
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\ציפי רבינוביץ\.nuget\packages\" />
+=======
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.10.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\עזר\.nuget\packages\" />
+>>>>>>> 6a142de9a60e8c76d9798fbc8ebce7d4737b1de3
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <PropertyGroup>

@@ -12,6 +12,8 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { MailComponent } from './components/mail/mail.component';
 import { AddUserComponent } from './components/add-user/add-user.component';
 import { AddUserService } from './services/add-user.service';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { AddUserService } from './services/add-user.service';
     CommonModule,
     HttpClientModule,
     SharedRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatSliderModule,
   ],
   providers: [ProductService, AddUserService, MailService, EventService],
   // exports: [ProductsComponent, ProductsDetailsComponent, LoginUserComponent, MailComponent]

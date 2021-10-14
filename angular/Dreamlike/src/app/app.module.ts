@@ -7,20 +7,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { UserModule } from './user/user.module';
-import { EComponent } from './shared/components/e/e/e.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    EComponent,
   ],  imports: [
     CommonModule,
     BrowserModule,
     AppRoutingModule,
     UserModule, 
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
   ],
   bootstrap: [AppComponent]
 })
