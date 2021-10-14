@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
         // error - if(sessionStorage.getItem(`${this.loginForm.value.Username}`) == this.loginForm.value.Password) {
         //   console.log('very nice')
         // }
-        // this.router.navigate(['../shared/home']);TODO: continue;
+        this.router.navigate(['../../']);//TODO: continue;
         console.log(success.toString());
       }
 
