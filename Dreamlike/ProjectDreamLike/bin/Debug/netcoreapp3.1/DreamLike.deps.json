@@ -33,6 +33,7 @@
         "dependencies": {
           "DreamLikeBL": "1.0.0",
           "DreamLikeDTO": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.10",
           "Microsoft.EntityFrameworkCore.Design": "5.0.8",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.10",
           "Swashbuckle.AspNetCore.Swagger": "6.1.4",

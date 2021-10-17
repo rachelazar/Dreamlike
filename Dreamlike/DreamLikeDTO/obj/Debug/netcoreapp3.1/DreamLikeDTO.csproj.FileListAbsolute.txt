@@ -1,41 +1,12 @@
-D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csprojAssemblyReference.cache
-D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfoInputs.cache
-D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfo.cs
-D:\תכנות\פרויקט גמר\project\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CoreCompileInputs.cache
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csprojAssemblyReference.cache
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfoInputs.cache
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfo.cs
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CoreCompileInputs.cache
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.deps.json
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.dll
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.pdb
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.dll
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.pdb
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CopyComplete
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.dll
-D:\תכנות\פרויקט גמר\New folder\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.pdb
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.deps.json
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.dll
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.pdb
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.dll
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.pdb
+D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.AssemblyReference.cache
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfoInputs.cache
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfo.cs
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CoreCompileInputs.cache
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CopyComplete
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.dll
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.pdb
-D:\תכנות\פרויקט גמר\New folder2\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.AssemblyReference.cache
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.deps.json
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.dll
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDTO.pdb
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.dll
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\bin\Debug\netcoreapp3.1\DreamLikeDAL.pdb
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfoInputs.cache
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.AssemblyInfo.cs
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CoreCompileInputs.cache
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.dll
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.pdb
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.AssemblyReference.cache
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\DreamLikeDTO\obj\Debug\netcoreapp3.1\DreamLikeDTO.csproj.CopyComplete
