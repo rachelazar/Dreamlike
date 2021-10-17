@@ -219,5 +219,10 @@ C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike
 C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.genruntimeconfig.cache
 C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+<<<<<<< HEAD
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.csproj.AssemblyReference.cache
+C:\Users\ציפי רבינוביץ\Videos\פרויקט גמר\22.08.21\Dreamlike\Dreamlike\ProjectDreamLike\obj\Debug\netcoreapp3.1\DreamLike.GeneratedMSBuildEditorConfig.editorconfig
+=======
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\ProjectDreamLike\bin\Debug\netcoreapp3.1\Castle.Core.dll
 D:\תכנות\פרויקט גמר\New folder2\Dreamlike\ProjectDreamLike\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+>>>>>>> 6a142de9a60e8c76d9798fbc8ebce7d4737b1de3

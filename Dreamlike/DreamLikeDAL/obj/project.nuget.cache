@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "nFAZCNfS+fIsutGH3XeaFyRbjdEJMET7Fz27k1XfUSfrlb7RZ0Ub8LjwRE/BqIWQ/LBOJWMg9wcfQwJ9orW+KA==",
+=======
   "dgSpecHash": "v9kSa1DXI63gQKxbvjL/OsaV3FlS0U1yLW37ixl7906CtIzT3TiW/HfJ69GrW67e6Jp+2g+N8JktETo+v1WP6A==",
+>>>>>>> 6a142de9a60e8c76d9798fbc8ebce7d4737b1de3
   "success": true,
   "projectFilePath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
   "expectedPackageFiles": [
