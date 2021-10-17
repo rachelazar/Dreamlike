@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "nFAZCNfS+fIsutGH3XeaFyRbjdEJMET7Fz27k1XfUSfrlb7RZ0Ub8LjwRE/BqIWQ/LBOJWMg9wcfQwJ9orW+KA==",
-=======
   "dgSpecHash": "v9kSa1DXI63gQKxbvjL/OsaV3FlS0U1yLW37ixl7906CtIzT3TiW/HfJ69GrW67e6Jp+2g+N8JktETo+v1WP6A==",
->>>>>>> 6a142de9a60e8c76d9798fbc8ebce7d4737b1de3
   "success": true,
   "projectFilePath": "D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDAL\\DreamLikeDAL.csproj",
   "expectedPackageFiles": [
@@ -106,5 +102,12 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\תכנות\\פרויקט גמר\\New folder2\\Dreamlike\\DreamLikeDAL\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
